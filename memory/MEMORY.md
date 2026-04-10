@@ -12,6 +12,10 @@ This folder is the persistent brain of the vault. Everything needed to resume ac
 - [[memory/CurrentPriorities]] — Active tasks and what's next
 - [[memory/SystemArchitecture]] — Three-system architecture and tech stack notes
 
+## External References
+
+- **GitHub:** https://github.com/NiranjananPrajith/SecondBrain (private)
+
 ## How to Use This Folder
 
 At the start of every session:
