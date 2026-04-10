@@ -1,0 +1,123 @@
+# RVR Paid Ad Sprint — Instagram + Reddit (Week 1)
+
+**Created:** 2026-04-10
+**Status:** ACTIVE — Launch-ready site, running parallel to organic seeding plan
+
+---
+
+## Context
+
+Website is functionally complete (Supabase OAuth ✅, Stripe Checkout ✅, core chat ✅). Need **meaningful traffic within days**, not months of organic seeding. This plan runs **parallel** to `CommunityAndFandomPlan.md` (organic long-term) and `CardSubmissionGuidelines.md`.
+
+---
+
+## Phase 1: Pre-Launch (Days 1-2)
+
+### Instagram Setup
+- [ ] Convert to **Instagram Business account** (required for ads)
+- [ ] Bio: "AI companion that speaks Hinglish 🗣️ | No filters | Link in bio → rvr.chat"
+- [ ] Enable **Shopping/Link in bio** (one-tap to rvr.chat)
+
+### Creative Assets
+**A. Promo Video (already exists)**
+- 30s, 9:16 vertical card-flip video
+- Card reveals: Remya → Swetha → Anya → Shika
+- Ends with velvet shadow + "rvr.chat" button
+- Audio: Sultry R&B, female vocalist
+- **Primary Instagram Reels/Story ad creative**
+
+**B. Image Stacks (per scenario)**
+- 5-card cinematic carousel per scenario (see `ImageStackTemplate.md`)
+- Format: 9:16, 1080×1920px, dark luxury aesthetic
+- Post 3-5 as organic carousels, boost best 2
+
+### Ad Accounts
+- [ ] Set up **Meta Ads Manager** (Instagram + Facebook)
+- [ ] Set up **Reddit Ads** account
+- [ ] Define audiences now (don't wait until launch day)
+
+---
+
+## Phase 2: Launch Ads (Days 2-3)
+
+### Instagram Ads
+
+**Creative A: Promo Video (Primary)**
+- Format: Reels/Story ad, 9:16, 30s
+- Objective: Website clicks / signups
+- Targeting: India, 18-35, interests: AI, chatbots, RPGs, anime
+- Budget: $20-30/day × 3 days
+- CTA: "Learn more" → rvr.chat
+
+**Creative B: Carousel Boost (×2)**
+- Boost top 2 scenario card image stacks
+- Targeting: Same as above
+- Budget: $10/day each
+
+### Reddit Ads
+
+**Why Reddit:** r/CharacterAIrunaways + r/CharacterAi_NSFW audiences are actively hunting for alternatives. High intent, lenient policies on "uncensored AI" framing. Lower CPM than Instagram.
+
+**Creative:**
+- Headline: "Finally, an AI that speaks Hinglish. No filters."
+- Body: "Chat with Indian AI companions that understand your language, culture, and slang. Free to start."
+- CTA: "Try rvr.chat →"
+- Targeting: r/CharacterAIrunaways, r/CharacterAi_NSFW, r/IndianGaming, India
+- Budget: $15-20/day × 3 days
+
+### Budget Allocation
+
+| Channel | Budget | Purpose |
+|---------|--------|---------|
+| Instagram Reels video ad | $60 | Brand awareness + signups |
+| Instagram carousel boost (×2) | $20 | Scenario card decks |
+| Reddit ads | $40 | High-intent community targeting |
+| **Total** | **$120** | |
+
+Start lean. Kill what doesn't work after 48h. Double down on winners.
+
+---
+
+## Phase 3: Optimize (Days 4-7)
+
+- [ ] Review Instagram metrics — which creative has lowest CPM + highest CTR?
+- [ ] Review Reddit metrics — which subreddit targeting converts best?
+- [ ] Keep only winning ads running
+- [ ] Post 2-3 more scenario card image stacks organically each day
+- [ ] Engage on boosted post comments (boosted posts get comment visibility)
+
+---
+
+## Success Metrics (Week 1)
+
+| Metric | Target |
+|--------|--------|
+| New signups | 20-50 |
+| Instagram followers | +50-100 |
+| Instagram ad CTR | >2% |
+| Reddit ad CTR | >0.5% |
+| Cost per signup | <$3 |
+
+---
+
+## Promo Video Reference
+
+| Time | Visual | Audio |
+|------|--------|-------|
+| 00:00-00:01 | Cards on velvet, gold particles, top card lifts | R&B track begins |
+| 00:02-00:08 | Ace of Hearts → "REMYA" — "Hey, check out RVR chat" | Soft music |
+| 00:08-00:11 | Morphs to "SWETHA" — "Explore our huge collection of fantasy scenarios" | — |
+| 00:12-00:16 | Morphs to "ANYA" — "Chat with any of these characters" | — |
+| 00:16-00:20 | Morphs to "SHIKA" — "Or create characters and scenarios of your own" | — |
+| 00:20-00:25 | Card flips to back: "VISIT rvr.chat TO START CHATTING" | Vocal: "Lace on the floor..." |
+| 00:25-00:29 | Cards drop away into black shadow | "Teeth on my shoulder..." |
+| 00:30-00:37 | Black screen, white "rvr.chat" button | "Candles drip slow..." fades out |
+
+---
+
+## Dependencies
+
+- Website must be live at rvr.chat with OAuth + Stripe functional ✅
+- At least 3-5 scenario cards ready for image stack generation
+- Image generation access (Nano Banana or Google Flow)
+- $120 ad budget available
