@@ -48,7 +48,7 @@ Portrait reference. Mood: premium, mysterious. Subject: [CHARACTER NAME] with [a
 Cinematic backstory. Mood: reflective, intimate. Subject: [SCENE from `character_definition.persona` or `scenario_definition.context` — a moment revealing who they are]. Style: Dark luxury, cinematic lighting. Composition: Landscape (16:9), character in setting that reflects their inner world. Quality: 4K, high detail, no text. Avoid: blurry, low quality, cluttered, revealing clothing.
 
 ### IMAGE 4 — First Message Portrait (9:16)
-Portrait expression. Mood: [EMOTION matching tone of opening_line — curious, warm, guarded, flirtatious, etc.]. Subject: [CHARACTER NAME] speaking: [opening_line verbatim]. Expression must match the emotional tone. **White background with uniform lighting.** Composition: Portrait (9:16), character as sole focus. Quality: 4K, high detail, no text. Avoid: blurry, low quality, non-white background, wrong expression.
+Portrait expression. Mood: [EMOTION matching tone of opening_line — curious, warm, guarded, flirtatious, etc.]. Subject: [CHARACTER NAME] speaking, mouth slightly open mid-sentence, expression matching emotional tone of the opening line. **White background with uniform lighting.** No text anywhere — no dialogue, no captions, no words. Composition: Portrait (9:16), character as sole focus. Quality: 4K, high detail, no text. Avoid: blurry, low quality, non-white background, text of any kind.
 
 ---
 
