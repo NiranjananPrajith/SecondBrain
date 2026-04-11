@@ -44,6 +44,7 @@ CamelCase.md
 ### Standard folders
 
 - `inbox/` — unprocessed capture. Review and move items regularly.
+- `journal/` — daily journal entries. One file per day: `YYYY-MM-DD.md`
 - `memory/` — vault-level persistent context (user profile, priorities, system notes)
 - `projects/` — active and future projects
 - `interests/` — research, topics, areas of curiosity
