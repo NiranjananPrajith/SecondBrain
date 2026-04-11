@@ -45,8 +45,8 @@ Website is functionally complete (Supabase OAuth ✅, Stripe Checkout ✅, core 
 **Creative A: Promo Video (Primary)**
 - Format: Reels/Story ad, 9:16, 30s
 - Objective: Website clicks / signups
-- Targeting: India, 18-35, interests: AI, chatbots, RPGs, anime
-- Budget: $20-30/day × 3 days
+- Targeting: India, 18-35, interests: AI, chatbots, RPGs, anime, Indian cinema, Hinglish, Tanglish, Kanglish, Manglish
+- Budget: $25/day × 7 days (Instagram allocation: $70/2 weeks)
 - CTA: "Learn more" → rvr.chat
 
 **Creative B: Carousel Boost (×2)**
@@ -58,23 +58,26 @@ Website is functionally complete (Supabase OAuth ✅, Stripe Checkout ✅, core 
 
 **Why Reddit:** r/CharacterAIrunaways + r/CharacterAi_NSFW audiences are actively hunting for alternatives. High intent, lenient policies on "uncensored AI" framing. Lower CPM than Instagram.
 
+**Targeting: Option B — Interest + Keyword**
+- Interests: `AI products, chatbots, anime, roleplaying games, Indian entertainment`
+- Keywords: `Character AI alternative, uncensored AI chat, Hinglish AI, Tanglish, Kanglish, Manglish, Indic AI, AI companion India`
+- Budget: $30/2 weeks (~$15/day × 2 weeks)
+
 **Creative:**
 - Headline: "Finally, an AI that speaks Hinglish. No filters."
 - Body: "Chat with Indian AI companions that understand your language, culture, and slang. Free to start."
 - CTA: "Try rvr.chat →"
-- Targeting: r/CharacterAIrunaways, r/CharacterAi_NSFW, r/IndianGaming, India
-- Budget: $15-20/day × 3 days
 
 ### Budget Allocation
 
-| Channel | Budget | Purpose |
-|---------|--------|---------|
-| Instagram Reels video ad | $60 | Brand awareness + signups |
-| Instagram carousel boost (×2) | $20 | Scenario card decks |
-| Reddit ads | $40 | High-intent community targeting |
-| **Total** | **$120** | |
+| Channel | Budget | Duration | Daily Rate |
+|---------|--------|----------|------------|
+| Instagram Reels video ad | $70 | 2 weeks | ~$5/day |
+| Instagram carousel boost (×2) | — | 2 weeks | part of IG budget |
+| Reddit ads (Option B) | $30 | 2 weeks | ~$2.15/day |
+| **Total** | **$100** | **2 weeks** | |
 
-Start lean. Kill what doesn't work after 48h. Double down on winners.
+*Cap: $100 for 2 weeks. Reassess at Day 14 — add budget only if ROAS > 1.*
 
 ---
 
@@ -120,4 +123,5 @@ Start lean. Kill what doesn't work after 48h. Double down on winners.
 - Website must be live at rvr.chat with OAuth + Stripe functional ✅
 - At least 3-5 scenario cards ready for image stack generation
 - Image generation access (Nano Banana or Google Flow)
-- $120 ad budget available
+- $100 ad budget available (capped for 2 weeks)
+- **Meta Pixel** installed on rvr.chat for retargeting (Instagram)
