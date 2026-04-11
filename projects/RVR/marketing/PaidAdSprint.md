@@ -14,9 +14,9 @@ Website is functionally complete (Supabase OAuth ✅, Stripe Checkout ✅, core 
 ## Phase 1: Pre-Launch (Days 1-2)
 
 ### Instagram Setup
-- [ ] Convert to **Instagram Business account** (required for ads)
-- [ ] Bio: "AI companion that speaks Hinglish 🗣️ | No filters | Link in bio → rvr.chat"
-- [ ] Enable **Shopping/Link in bio** (one-tap to rvr.chat)
+- [x] Convert to **Instagram Business account** ✅ (2026-04-11)
+- [x] Bio: "Uncensored AI chats in English, हिंदी/Hinglish, বাংলা/Benglish, তমিল/Tanglish, ಕನ್ನಡ/Kanglish, മലയാളം/Manglish, తెలుగు/Tenglish." ✅ (2026-04-11)
+- [x] Enable **Shopping/Link in bio** (rvr.chat) ✅ (2026-04-11)
 
 ### Creative Assets
 **A. Promo Video (already exists)**
