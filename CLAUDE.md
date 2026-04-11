@@ -117,6 +117,8 @@ Specifically:
 - **Progress updates** → When the user reports progress, update the relevant notes in real time — don't batch updates at the end of the session.
 - **Git sync after every change** → After every file edit, `git add` → `git commit` → `git push`. The vault must be synced to GitHub after every single change, no exceptions. Nothing sits uncommitted locally.
 
+**Multi-device sync** → At the start of every session, run `git pull --rebase` before reading files or making changes. This vault is used across multiple devices — always pull latest before touching anything.
+
 **The test:** If we close this chat right now and open a new one, can the vault answer these questions on its own?
 
 - What were we working on?
