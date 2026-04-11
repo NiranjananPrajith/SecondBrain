@@ -56,8 +56,9 @@ See [[VAULT_GUIDELINES]] for naming conventions, folder structure, and file mana
 ### Navigation
 
 Every session, start by reading:
-- [[memory/]] — this folder contains all persistent context about you, your projects, and your preferences
-- [[projects/ActiveTasks]] — what's active and what needs to happen next
+- [[journal/daily-journal]] — today's entry and format guide
+- [[memory/current-priorities]] — what's active and what needs to happen next
+- [[projects/ActiveTasks]] — task lists for active projects
 - [[inbox/]] — unprocessed items, loose threads, capture from the day
 
 The vault is self-contained. Everything needed to resume from where we left off lives here, inside this folder.
