@@ -57,7 +57,7 @@ See [[VAULT_GUIDELINES]] for naming conventions, folder structure, and file mana
 
 Every session, start by reading:
 - [[journal/daily-journal]] — today's entry and format guide
-- [[memory/current-priorities]] — what's active and what needs to happen next
+- [[memory/CurrentPriorities]] — what's active and what needs to happen next
 - [[projects/ActiveTasks]] — task lists for active projects
 - [[inbox/]] — unprocessed items, loose threads, capture from the day
 
@@ -115,6 +115,7 @@ Specifically:
 - **Context** → If context shifts mid-project (priorities change, scope changes, blockers appear), update the relevant notes.
 - **Task completion** → When the user reports completing a task, immediately mark it as `[x]` in the relevant plan document, update the timestamp, and push to git.
 - **Progress updates** → When the user reports progress, update the relevant notes in real time — don't batch updates at the end of the session.
+- **Git sync after every change** → After every file edit, `git add` → `git commit` → `git push`. The vault must be synced to GitHub after every single change, no exceptions. Nothing sits uncommitted locally.
 
 **The test:** If we close this chat right now and open a new one, can the vault answer these questions on its own?
 
@@ -129,7 +130,7 @@ If the answer to any of these is "I think so?" — the vault failed. Fix it.
 > When in doubt, write it down. Extra notes are easy to delete. Missing notes are invisible until you need them.
 
 > [!important]
-> **Always mark completed tasks immediately.** The user's reports are the source of truth. When they say "done", the checklist in the plan note must reflect that before we move on. Commit the change to git before proceeding.
+> **Always mark completed tasks immediately.** The user's reports are the source of truth. When they say "done", the checklist in the plan note must reflect that before we move on. Commit and push — the vault must be synced to GitHub after every change.
 
 ---
 
