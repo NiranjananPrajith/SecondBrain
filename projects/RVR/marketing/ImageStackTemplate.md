@@ -15,26 +15,6 @@ You receive a character card image and scenario card details in JSON. You output
 
 ---
 
-## INPUT FORMAT
-
-```json
-{
-  "character_name": "...",
-  "scenario_title": "...",
-  "character_definition": {
-    "persona": "...",
-    "appearance": "...",
-    "first_message": "..."
-  },
-  "scenario_definition": {
-    "context": "...",
-    "opening_line": "..."
-  }
-}
-```
-
----
-
 ## TEXT COPY
 
 ### TEXT 1 — Scenario Description
@@ -62,13 +42,13 @@ Extract details **only from the JSON**. Never invent details not in the input.
 Cinematic scene-setting. Mood: atmospheric, story-driven. Subject: [MAIN SCENE from `scenario_definition.context`]. Style: Dark luxury, cinematic lighting. Composition: Landscape (16:9), scene-focused. Quality: 4K, high detail, no text, no logos, no watermarks. Avoid: blurry, low quality, cluttered, revealing clothing.
 
 ### IMAGE 2 — Character Appearance Portrait (9:16)
-Portrait reference. Mood: premium, mysterious. Subject: [CHARACTER NAME] with [appearance from `character_definition.appearance`]. **Background must be easily removable** — solid color, soft gradient, or clean blur only. No environmental context. Composition: Portrait (9:16), character as sole focus. Quality: 4K, high detail, no text. Avoid: blurry, low quality, busy background, revealing clothing.
+Portrait reference. Mood: premium, mysterious. Subject: [CHARACTER NAME] with [appearance from `character_definition.appearance`]. **White background with uniform lighting.** Plain, clean, no environmental context. Composition: Portrait (9:16), character as sole focus. Quality: 4K, high detail, no text. Avoid: blurry, low quality, non-white background, revealing clothing.
 
 ### IMAGE 3 — Character Background Scene (16:9 Landscape)
 Cinematic backstory. Mood: reflective, intimate. Subject: [SCENE from `character_definition.persona` or `scenario_definition.context` — a moment revealing who they are]. Style: Dark luxury, cinematic lighting. Composition: Landscape (16:9), character in setting that reflects their inner world. Quality: 4K, high detail, no text. Avoid: blurry, low quality, cluttered, revealing clothing.
 
 ### IMAGE 4 — First Message Portrait (9:16)
-Portrait expression. Mood: [EMOTION matching tone of opening_line — curious, warm, guarded, flirtatious, etc.]. Subject: [CHARACTER NAME] speaking: [opening_line verbatim]. Expression must match the emotional tone. **Background must be easily removable**. Composition: Portrait (9:16), character as sole focus. Quality: 4K, high detail, no text. Avoid: blurry, low quality, busy background, wrong expression.
+Portrait expression. Mood: [EMOTION matching tone of opening_line — curious, warm, guarded, flirtatious, etc.]. Subject: [CHARACTER NAME] speaking: [opening_line verbatim]. Expression must match the emotional tone. **White background with uniform lighting.** Composition: Portrait (9:16), character as sole focus. Quality: 4K, high detail, no text. Avoid: blurry, low quality, non-white background, wrong expression.
 
 ---
 
@@ -77,7 +57,7 @@ Portrait expression. Mood: [EMOTION matching tone of opening_line — curious, w
 1. Extract all content **only from JSON** — never invent details not present
 2. TEXT 1, 2, 3: strict 30-word limit. TEXT 5: 20-word limit. Count and trim.
 3. TEXT 4: copy `opening_line` **exactly as given** — no paraphrase, no changes
-4. IMAGE 2 and 4: removable background required (solid, gradient, or clean blur — no environmental clutter)
+4. IMAGE 2 and 4: white background with uniform lighting required. No environmental context.
 5. IMAGE 1 and 3: 16:9 landscape. IMAGE 2 and 4: 9:16 portrait.
 6. PG-13 at all times — no explicit content, no revealing clothing, no sexualized details
 7. No text, logos, or watermarks in any image prompt
