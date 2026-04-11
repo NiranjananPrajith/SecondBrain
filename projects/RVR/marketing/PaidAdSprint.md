@@ -1,7 +1,8 @@
-# RVR Paid Ad Sprint — Instagram + Reddit (Week 1)
+# RVR Paid Ad Sprint — Instagram + Reddit (2-Week Sprint)
 
 **Created:** 2026-04-10
-**Status:** ACTIVE — Launch-ready site, running parallel to organic seeding plan
+**Updated:** 2026-04-11 (audience targeting + 2-week budget cap)
+**Status:** ACTIVE — Ad accounts ready, launching Week of 2026-04-11
 
 ---
 
@@ -32,9 +33,9 @@ Website is functionally complete (Supabase OAuth ✅, Stripe Checkout ✅, core 
 - Post 3-5 as organic carousels, boost best 2
 
 ### Ad Accounts
-- [ ] Set up **Meta Ads Manager** (Instagram + Facebook)
-- [ ] Set up **Reddit Ads** account
-- [ ] Define audiences now (don't wait until launch day)
+- [x] Set up **Meta Ads Manager** (Instagram only) ✅ (2026-04-11)
+- [x] Set up **Reddit Ads** account ✅ (2026-04-11)
+- [x] Define audiences ✅ (2026-04-11 — see targeting spec above)
 
 ---
 
