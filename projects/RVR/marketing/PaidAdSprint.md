@@ -104,6 +104,13 @@ Website is functionally complete (Supabase OAuth ✅, Stripe Checkout ✅, core 
 
 ---
 
+## Instagram Caption (Promo Video Reel)
+
+They finally speak your language. Hinglish, Tanglish, Manglish — naturally. No filters, no scripts, no lectures. Your AI companion, your rules.
+👉 rvr.chat
+
+---
+
 ## Promo Video Reference
 
 | Time | Visual | Audio |
