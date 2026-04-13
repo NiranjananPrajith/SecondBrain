@@ -87,7 +87,6 @@ When generating, pick from these categories and specify which one:
 
 ## OUTPUT FORMAT
 
-```
 Character Name:
 [Character Name]
 
