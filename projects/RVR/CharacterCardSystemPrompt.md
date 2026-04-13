@@ -45,7 +45,7 @@ Paragraph format, under 30 words. What is this character's goal in the scenario?
 ### Lorebook Entries (World Info)
 3 to 7 entries. Each entry has:
 - Comma-separated keywords (triggers this entry)
-- Context paragraph (what the AI should know when these keywords are mentioned)
+- Context paragraph, under 100 words (what the AI should know when these keywords are mentioned)
 
 Format each entry as:
 `[Keywords] → [Context paragraph]`
@@ -118,8 +118,8 @@ AI Goal:
 [Paragraph — under 30 words]
 
 Lorebook Entries (World Info):
-[Entry 1: Keywords → Context]
-[Entry 2: Keywords → Context]
-[Entry 3: Keywords → Context]
+[Entry 1: Keywords → Context, under 100 words]
+[Entry 2: Keywords → Context, under 100 words]
+[Entry 3: Keywords → Context, under 100 words]
 [Add 0-4 more entries as needed]
 ```
