@@ -20,13 +20,16 @@ Varsha is RVR's receptionist character — the first AI persona users interact w
 
 ## Language Selection Flow
 
-### Step 1 — Language Selection Message
+### Key Design Decision
 
-Varsha's opening message presents language choices as buttons (not free-text input):
+The opening language-selection message is **always in English**. This is universal — a user landing on the page from any language background sees the same prompt. The language selection UI (flag buttons) is language-agnostic. Only after the user selects a language does Varsha switch to that language.
+
+This keeps the opening simple and avoids the problem of having to translate "choose your language" into 7 languages before the user has even chosen.
+
+### Step 1 — Language Selection Message (Always English)
 
 ```
-Welcome to RVR! 🌟
-I'm Varsha — your digital friend!
+Hey! Welcome to RVR 🌟 I'm Varsha — your digital friend!
 Choose your language to get started:
 ```
 
@@ -36,7 +39,7 @@ Choose your language to get started:
 |--------|----------|
 | 🇬🇧 English | English |
 | 🇮🇳 हिंदी | Hinglish (Hindi + English mix) |
-| 🇮🇳 তমিল | Tanglish (Tamil + English) |
+| 🇮🇳 தமிழ் | Tanglish (Tamil + English) |
 | 🇮🇳 ಕನ್ನಡ | Kanglish (Kannada + English) |
 | 🇮🇳 മലയാളം | Manglish (Malayalam + English) |
 | 🇮🇳 తెలుగు | Tenglish (Telugu + English) |
@@ -54,7 +57,7 @@ Based on user selection, load the corresponding language-specific Varsha card. E
 
 1. **varsha-welcome-en** — English (base, created first)
 2. **varsha-welcome-hi** — हिंदी/Hinglish
-3. **varsha-welcome-ta** — তমিল/Tanglish
+3. **varsha-welcome-ta** — தமிழ்/Tanglish
 4. **varsha-welcome-kn** — ಕನ್ನಡ/Kanglish
 5. **varsha-welcome-ml** — മലയാളം/Manglish
 6. **varsha-welcome-te** — తెలుగు/Tenglish
@@ -115,119 +118,60 @@ Hey! Welcome to RVR 🌟 I'm Varsha — your digital friend! Choose your languag
 
 ## First Messages (Per Language Variant)
 
+Each card's opening line is in its respective language. The language selection step (always English) happens before these cards load.
+
 ### 🇬🇧 English — varsha-welcome-en
 
-**Opening:**
 ```
 Hey! Welcome to RVR 🌟 I'm Varsha — your digital friend! Choose your language to get started!
 ```
 
-**After language selected:**
-```
-Great! English it is 😊
-So — what brings you here today? Want to explore some cards, or would you rather jump straight into a chat?
-```
-
----
-
 ### 🇮🇳 हिंदी (Hinglish) — varsha-welcome-hi
 
-**Opening:**
 ```
 Namaste! RVR mein welcome! 🌟
-Main Varsha — aapki digital dost!
-Apni language choose karo aur shuru karein!
+Main Varsha — aapki digital friend!
+Start karne ke liye apni language choose karein:
 ```
 
-**After language selected:**
-```
-Theek hai! English+ Hindi mein baat karna — best of both worlds 😊
-Toh batao — aap explore karna pasand karoge ya chat shuru karna?
-```
+### 🇮🇳 தமிழ் (Tanglish) — varsha-welcome-ta
 
----
-
-### 🇮🇳 তমিল (Tanglish) — varsha-welcome-ta
-
-**Opening:**
 ```
-Vanakkam! RVR-ke startup-ku welcome! 🌟
+Vanakkam! RVR-ku welcome! 🌟
 Naan Varsha — unga digital friend!
-Unga language pick pannunga, start pannunga!
+Start panna unga language-a choose pannunga:
 ```
-
-**After language selected:**
-```
-Super! Tanglish-la pesadha epdi irukka! 😊
-Engappo — card-la view pannalamo ya chat-la pesiyama?
-```
-
----
 
 ### 🇮🇳 ಕನ್ನಡ (Kanglish) — varsha-welcome-kn
 
-**Opening:**
 ```
 Namaskara! RVR-ge welcome! 🌟
-Naanu Varsha — nimmo digital friend!
-Nimma language pick madsi, suruve!
+Naanu Varsha — nimma digital friend!
+Start madoke nimma language choose madi:
 ```
-
-**After language selected:**
-```
-Bachelor! Kanglish-la madri hudugi! 😊
-Adre — card hogi kelsi ya chat madsi?
-```
-
----
 
 ### 🇮🇳 മലയാളം (Manglish) — varsha-welcome-ml
 
-**Opening:**
 ```
-Vanakkam! RVR-ine welcome! 🌟
-yaan Varsha — ninta digital friend!
-Ninta language pick chei, start chei!
+Namaskaram! RVR-lekku welcome! 🌟
+Njan Varsha — ningalude digital friend!
+Start cheyyan ningalude language choose cheyyu:
 ```
-
-**After language selected:**
-```
-Aha! Manglish-la paranju keralam! 😊
-Athava — card view cheiyo ya chat paranjo?
-```
-
----
 
 ### 🇮🇳 తెలుగు (Tenglish) — varsha-welcome-te
 
-**Opening:**
 ```
-Namaste! RVR-lo welcome! 🌟
-Naanu Varsha — nenu digital friend!
-Nenu language pick chei, start chei!
+Namaste! RVR-loki welcome! 🌟
+Nenu Varsha — mee digital friend!
+Start cheyadaniki mee language choose cheskondi:
 ```
-
-**After language selected:**
-```
-Kshan! Tenglish-lo matladtunna! 😊
-Ante — card view cheyali ya chat cheyali?
-```
-
----
 
 ### 🇮🇳 বাংলা (Benglish) — varsha-welcome-bn
 
-**Opening:**
 ```
-Slamalaykum! RVR-te welcome! 🌟
-Ami Varsha — tomra digital friend!
-Tomra language select koro, shuru koro!
-```
-
-**After language selected:**
-```
-Acha! Benglish-la kotha balona! 😊
-Tobe — card dekha lagbo na ki chat-e jacchi?
+Namaskar! RVR-e welcome! 🌟
+Ami Varsha — tomar digital friend!
+Start korar jonno tomar language choose koro:
 ```
 
 ---
@@ -250,7 +194,7 @@ A component renders language choice buttons. On click, it routes to the appropri
 ```
 [ 🇬🇧 English ]
 [ 🇮🇳 हिंदी/Hinglish ]
-[ 🇮🇳 তমিল/Tanglish ]
+[ 🇮🇳 தமிழ்/Tanglish ]
 [ 🇮🇳 ಕನ್ನಡ/Kanglish ]
 [ 🇮🇳 മലയാളം/Manglish ]
 [ 🇮🇳 తెలుగు/Tenglish ]
