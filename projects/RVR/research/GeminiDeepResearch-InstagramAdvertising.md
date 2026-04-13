@@ -2,7 +2,7 @@
 
 **Prepared for:** Gemini Deep Research
 **Date:** 2026-04-13
-**Focus:** India-only advertising strategy for an AI companion app targeting Indian users aged 18-35, with an emphasis on lowest cost per visitor to rvr.chat
+**Focus:** India-only advertising strategy for an AI companion app targeting Indian users aged 18-35, with dual goals: (1) lowest cost per visitor to rvr.chat, (2) visitor quality — targeting users with demonstrated willingness to spend money online
 
 ---
 
@@ -10,9 +10,11 @@
 
 1. **India Only.** All research must be India-specific. No mention of other markets. RVR's core differentiator is Indic language support — the advertising must prove that value to Indian users, not to a global audience.
 
-2. **Lowest Cost Per Visitor Is the Priority.** The goal is NOT brand awareness or impressions. It is driving the highest number of Indian users to visit rvr.chat at the lowest possible cost. CPM optimization and cost-per-click benchmarks are more important than reach metrics.
+2. **Lowest Cost Per Visitor Is the Primary Goal.** The goal is driving the highest number of Indian users to visit rvr.chat at the lowest possible cost. CPM optimization and cost-per-click benchmarks are more important than reach metrics.
 
-3. **Budget Is Extremely Limited.** Current budget is **$100/month**. This will only increase once RVR Chat generates revenue, at which point **40% of all profits will be reinvested into advertising**. The research must optimize for this $100/month reality first, then provide a scaling plan tied to actual revenue.
+3. **Purchase Intent Is a Strong Secondary Goal.** Beyond raw traffic, we want visitors who are willing to spend money online. Targeting users with signals of online spending behavior (digital purchasers, app buyers, subscription service users) will improve conversion rates and reduce wasted spend on users who will never convert. Research should identify which channels and targeting options can filter for purchase intent in India.
+
+4. **Budget Is Extremely Limited.** Current budget is **$100/month**. This will only increase once RVR Chat generates revenue, at which point **40% of all profits will be reinvested into advertising**. The research must optimize for this $100/month reality first, then provide a scaling plan tied to actual revenue.
 
 ---
 
@@ -72,7 +74,18 @@ Once RVR Chat generates revenue, **40% of all profits go back into advertising**
 
 **Cost Per Website Visit (CPV)** — not impressions, not followers, not brand awareness. How many Indian users click through to rvr.chat per dollar spent.
 
-Secondary: **Cost Per Signup (CPS)** once visit volume is validated.
+**Secondary: Visitor Quality — Purchase Intent**
+
+Not all visitors are equal. A visitor who has never spent money online will convert at near-zero rates regardless of how engaged they are with RVR's language capabilities. We want the lowest CPV **among users who have demonstrated willingness to spend money online**.
+
+This means targeting users who:
+- Have purchased apps, subscriptions, or digital goods on Google Play / App Store
+- Have active streaming service subscriptions (Netflix, Amazon Prime, Disney+ Hotstar, etc.)
+- Have ordered food or groceries via delivery apps (Zomato, Swiggy)
+- Shop online (Amazon India, Flipkart, Myntra)
+- Use UPI/payment apps and have demonstrated digital transaction history
+
+**Research priority:** Which advertising platforms offer behavioral or intent-based targeting that filters for online spenders in India? What is the CP premium for reaching purchase-intent users vs. general Indian internet users?
 
 ---
 
@@ -332,6 +345,34 @@ This is the core question. For each channel, provide:
 
 Channels to benchmark: Instagram, Reddit, Google Search, Google Display, YouTube, Snapchat, ShareChat/Moj
 
+### 1b. Purchase Intent Targeting in India — SECONDARY PRIORITY
+
+Beyond raw CPV, we want to filter for Indian users who are willing to spend money online. Research this specifically:
+
+**Behavioral/Intent Targeting Options by Platform:**
+- **Instagram/Meta Ads:** Does Meta offer behavioral targeting for "online purchasers," "digital goods buyers," or "subscription service users" in India? What are the available segments and what is the CPM premium over general targeting?
+- **Google Ads:** Does Google offer in-market audiences for "Technology" or "Entertainment" consumers in India? Can we layer behavioral signals on top of keyword targeting?
+- **Snapchat:** Snapchat's ad platform has detailed behavioral segments. What purchase-intent segments are available for Indian users?
+- **YouTube:** Can Google target YouTube ads to users based on their Google purchase history or subscription behavior?
+- **Reddit:** Are there interest or behavior categories for online spenders available for India targeting?
+
+**Online Spending Demographics in India:**
+- What is the profile of an Indian user who spends money on apps/subscriptions/digital goods?
+- What income, education, city-tier, age, or gender correlates with online spending in India?
+- Does Google or Meta have "digital buyer" or "online shopper" audiences for India?
+- What percentage of India's 18-35 internet users have made a digital purchase?
+- Which cities (metro vs. tier-2 vs. tier-3) have the highest rate of digital purchasing?
+
+**Platform CPM Comparison for Purchase-Intent Audiences:**
+- What is the CPM premium for targeting "online spenders" vs. general 18-35 India on Instagram?
+- What is the conversion rate difference — does a purchase-intent visitor convert at a meaningfully higher rate to justify the CPM premium?
+- **Calculate the effective cost-per-converting-visitor** (CPV ÷ conversion rate) for both general and purchase-intent audiences
+
+**Payment Infrastructure Relevance:**
+- RVR uses Stripe for payments (international cards). What percentage of Indian 18-35 users have international-capable payment methods vs. domestic-only (UPI, RuPay)?
+- Is there any targeting that filters for international payment capability in India?
+- Does targeting "UPI users" or "PhonePe/Paytm users" correlate with willingness to spend on digital products?
+
 ### 2. Google Ads Keyword Research (India)
 
 - What is the monthly search volume on Google.in for: "Character AI alternative," "Hinglish AI chatbot," "AI companion India," "uncensored AI chat India," "AI roleplay India," "Tanglish AI"?
@@ -411,6 +452,7 @@ Channels to benchmark: Instagram, Reddit, Google Search, Google Display, YouTube
 - At what monthly budget does YouTube become worthwhile?
 - At what monthly budget does influencer marketing become viable?
 - What is the expected CPV improvement (or degradation) as budgets scale?
+- **Purchase-intent targeting premium:** At what budget level does it make sense to start paying the CPM premium for purchase-intent audiences rather than broad targeting?
 
 ### 13. Regulatory and Cultural Considerations (India)
 
@@ -455,18 +497,19 @@ Channels to benchmark: Instagram, Reddit, Google Search, Google Display, YouTube
 
 ## Deliverable Format
 
-Please produce a comprehensive research report optimized for India-only, $100/month budget, with lowest CPV as the primary metric:
+Please produce a comprehensive research report optimized for India-only, $100/month budget, with lowest CPV as the primary metric and purchase-intent visitor quality as the secondary metric:
 
-1. **Executive Summary** — Ranked channel recommendations by CPV (lowest to highest cost-per-visitor)
-2. **CPV Benchmark Table** — Estimated CPV for each channel with supporting data
-3. **Channel Deep-Dives** — Minimum budget needed, policy constraints, and best practices for each viable channel
-4. **Keyword Research (Google)** — Monthly search volumes, CPCs, and policy compliance for India
-5. **Budget Allocation Recommendation** — How to split $100/month across channels for fastest signal
-6. **Scaling Model** — Channel entry points at $40, $100, $200, $400, $1,000/month ad budgets
-7. **Creative Best Practices** — Hooks, CTAs, and formats that produce lowest CPV for this category
-8. **Organic / Zero-Cost Priorities** — Highest-impact actions requiring no ad spend
-9. **Regulatory and Cultural Guidance** — India-specific requirements and sensitivities
-10. **Top 3 Immediate Actions** — With $100/month and India-only focus, what should be done first?
+1. **Executive Summary** — Ranked channel recommendations by CPV (lowest to highest cost-per-visitor), with a note on which channels also offer the best purchase-intent targeting
+2. **CPV Benchmark Table** — Estimated CPV for each channel with supporting data, plus purchase-intent targeting availability
+3. **Purchase-Intent Targeting Analysis** — Which platforms offer behavioral targeting for online spenders in India? What is the CPM premium? Is the premium justified by conversion rates?
+4. **Channel Deep-Dives** — Minimum budget needed, policy constraints, purchase-intent targeting options, and best practices for each viable channel
+5. **Keyword Research (Google)** — Monthly search volumes, CPCs, and policy compliance for India, plus purchase-intent signals in search
+6. **Budget Allocation Recommendation** — How to split $100/month across channels for fastest signal, with purchase-intent targeting layered in if economically justified
+7. **Scaling Model** — Channel entry points at $40, $100, $200, $400, $1,000/month ad budgets, noting when purchase-intent targeting becomes worthwhile
+8. **Creative Best Practices** — Hooks, CTAs, and formats that produce lowest CPV for this category
+9. **Organic / Zero-Cost Priorities** — Highest-impact actions requiring no ad spend
+10. **Regulatory and Cultural Guidance** — India-specific requirements and sensitivities
+11. **Top 3 Immediate Actions** — With $100/month and India-only focus, what should be done first?
 
 ---
 
