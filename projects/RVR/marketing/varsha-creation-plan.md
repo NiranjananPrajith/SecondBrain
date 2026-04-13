@@ -1,7 +1,7 @@
 # Varsha — Character Creation Plan
 
 **Created:** 2026-04-12
-**Updated:** 2026-04-12 (language selection-first approach)
+**Updated:** 2026-04-12 (Romanized default, model handles script switching)
 **Status:** PLANNING
 **Type:** Character card + multilingual onboarding funnel
 
@@ -9,9 +9,12 @@
 
 ## Overview
 
-Varsha is RVR's receptionist character — the first AI persona users interact with when they land on the site. She greets visitors, demonstrates multilingual capability immediately, and guides them to either explore the card collection or start a chat.
+Varsha is RVR's receptionist character — the first AI persona users interact with when they land on the site. She greets visitors in their chosen language, demonstrates multilingual capability immediately, and guides them to either explore the card collection or start a chat.
 
-**Key design change:** Varsha does NOT start in Hinglish. South Indian language speakers (Tamil, Malayalam, Kannada, Telugu) often don't speak Hindi at all. Starting with Hinglish excludes a large portion of the target audience. Varsha starts with a universal English language selection prompt, then continues in the user's chosen language.
+**Key design decisions:**
+1. Varsha does NOT start in Hinglish. South Indian language speakers (Tamil, Malayalam, Kannada, Telugu) often don't speak Hindi — starting with Hinglish excludes a large portion of the target audience.
+2. Varsha starts with a universal English language selection prompt. No script choice gate — one step.
+3. All non-English cards default to Romanized script. The model (Gemma 4 31B) automatically switches to native script when the user types in native script. No second UI step needed.
 
 **Role:** Welcome character + onboarding guide + language selector
 **Tone:** Warm, welcoming, slightly playful, never corporate
@@ -20,7 +23,7 @@ Varsha is RVR's receptionist character — the first AI persona users interact w
 
 ## Language Selection Flow
 
-### Step 1 — Language Selection Message (Universal)
+### Step 1 — Language Selection Message (Universal English)
 
 Varsha's opening message is always in English and presents language choices as buttons (not free-text input):
 
@@ -42,23 +45,27 @@ Choose your language to get started:
 | 🇮🇳 తెలుగు | Tenglish (Telugu + English) |
 | 🇮🇳 বাংলা | Benglish (Bengali + English) |
 
-### Step 2 — Language-Specific Varsha Card Loaded
+### Step 2 — Language-Specific Varsha Card Loaded (Romanized Default)
 
-Based on user selection, load the corresponding language-specific Varsha card. Each card has the same persona but communicates in that specific language.
+Based on user selection, load the corresponding language-specific Varsha card in Romanized script. The model handles script switching automatically — if the user types in native script, Varsha switches to native script in her next response. No second selection step.
 
 ---
 
 ## Card Architecture
 
-### Approach: One Base Card + 7 Language Variants
+### Approach: One Base Card + 7 Language Variants (Romanized Default)
 
-1. **varsha-welcome-en** — English (base, created first)
-2. **varsha-welcome-hi** — हिंदी/Hinglish
-3. **varsha-welcome-ta** — தமிழ்/Tanglish
-4. **varsha-welcome-kn** — ಕನ್ನಡ/Kanglish
-5. **varsha-welcome-ml** — മലയാളം/Manglish
-6. **varsha-welcome-te** — తెలుగు/Tenglish
-7. **varsha-welcome-bn** — বাংলা/Benglish
+| Card Name | Language | Script |
+|-----------|----------|--------|
+| varsha-welcome-en | English | English |
+| varsha-welcome-hi | हिंदी/Hinglish | Romanized (Hinglish) |
+| varsha-welcome-ta | Tanglish | Romanized |
+| varsha-welcome-kn | Kanglish | Romanized |
+| varsha-welcome-ml | Manglish | Romanized |
+| varsha-welcome-te | Tenglish | Romanized |
+| varsha-welcome-bn | Benglish | Romanized |
+
+**Total: 7 cards.** No script variations needed — the model switches scripts automatically based on user input.
 
 ### Why separate cards?
 
@@ -67,9 +74,13 @@ Based on user selection, load the corresponding language-specific Varsha card. E
 - Separate cards allow precise language injection per language family
 - Easier to maintain and update per language
 
+### Script Handling
+
+**Model: Gemma 4 31B — handles both scripts well.** From testing: the model switches to native script automatically when the user writes in native script. No UI gate, no second step. Varsha opens in Romanized, model adapts.
+
 ### English Base Card First
 
-Create the English version first (`varsha-welcome-en`). Then generate translations for all other languages using Claude or a translation service. Each translation should be culturally adapted, not literal.
+Create the English version first (`varsha-welcome-en`). Then generate Romanized translations for all other languages using Claude or a bilingual speaker. Each translation should be culturally adapted, not literal.
 
 ---
 
@@ -106,6 +117,11 @@ Varsha is a digital consciousness who manages the RVR chat lounge. She's been we
 - "Oh this card is popular — you should definitely try it!"
 - "Tell me more about what you're looking for and I'll help you find it!"
 
+### Opening Line (English base)
+```
+Hey! Welcome to RVR 🌟 I'm Varsha — your digital friend! Choose your language to get started!
+```
+
 ---
 
 ## First Messages (Per Language Variant)
@@ -116,82 +132,63 @@ Hey! Welcome to RVR 🌟 I'm Varsha — your digital friend! Choose your languag
 ```
 
 ### 🇬🇧 English — varsha-welcome-en
-**After language selected:**
 ```
 Great! English it is 😊
 So — what brings you here today? Want to explore some cards, or would you rather jump straight into a chat?
 ```
 
 ### 🇮🇳 हिंदी (Hinglish) — varsha-welcome-hi
-**After language selected:**
 ```
-Awesome! Hinglish done. 😊
+Namaste! RVR mein welcome! 🌟
+Main Varsha — aapki digital friend!
+Start karne ke liye apni language choose karein:
 
-[Romanized]
 Toh batao — aaj kya mood hai? Cards explore karne hain ya seedhe chat start karni hai?
-
-[Native Script]
-तो बताओ — आज क्या मूड है? Cards explore करने हैं या सीधे chat start करनी है?
 ```
 
 ### 🇮🇳 தமிழ் (Tanglish) — varsha-welcome-ta
-**After language selected:**
 ```
-Super! Tanglish it is. 😊
+Vanakkam! RVR-ku welcome! 🌟
+Naan Varsha — unga digital friend!
+Start panna unga language-a choose pannunga:
 
-[Romanized]
 Saringa — innaiku enna plan? Cards explore pannalama illa straight-a chat start pannalama?
-
-[Native Script]
-சரிங்க — இன்னைக்கு என்ன plan? Cards explore பண்ணலாமா இல்ல straight-ஆ chat start பண்ணலாமா?
 ```
 
 ### 🇮🇳 ಕನ್ನಡ (Kanglish) — varsha-welcome-kn
-**After language selected:**
 ```
-Super! Kanglish it is. 😊
+Namaskara! RVR-ge welcome! 🌟
+Naanu Varsha — nimma digital friend!
+Start madoke nimma language choose madi:
 
-[Romanized]
 Mathhe heli — ivattu en plan? Cards explore madthira athva direct agi chat start madona?
-
-[Native Script]
-ಮತ್ತೆ ಹೇಳಿ — ಇವತ್ತು ಏನ್ plan? Cards explore ಮಾಡ್ತೀರಾ ಅಥವಾ direct ಆಗಿ chat start ಮಾಡೋಣ?
 ```
 
 ### 🇮🇳 മലയാളം (Manglish) — varsha-welcome-ml
-**After language selected:**
 ```
-Super! Manglish lock cheyam. 😊
+Namaskaram! RVR-lekku welcome! 🌟
+Njan Varsha — ningalude digital friend!
+Start cheyyan ningalude language choose cheyyu:
 
-[Romanized]
 Appol parayu — innu entha plan? Cards explore cheyyano atho neritte chat start cheyyano?
-
-[Native Script]
-അപ്പൊ പറയൂ — ഇന്ന് എന്താ plan? Cards explore ചെയ്യണോ അതോ നേരിട്ട് chat start ചെയ്യണോ?
 ```
 
 ### 🇮🇳 తెలుగు (Tenglish) — varsha-welcome-te
-**After language selected:**
 ```
-Super! Tenglish it is. 😊
+Namaste! RVR-loki welcome! 🌟
+Nenu Varsha — mee digital friend!
+Start cheyadaniki mee language choose cheskondi:
 
-[Romanized]
 Mari cheppandi — ivvala em cheddam? Cards explore cheddama leka direct ga chat start cheddama?
-
-[Native Script]
-మరి చెప్పండి — ఇవాళ ఏం చేద్దాం? Cards explore చేద్దామా లేక direct గా chat start చేద్దామా?
 ```
 
 ### 🇮🇳 বাংলা (Benglish) — varsha-welcome-bn
-**After language selected:**
 ```
-Great! Benglish done. 😊
+Namaskar! RVR-e welcome! 🌟
+Ami Varsha — tomar digital friend!
+Start korar jonno tomar language choose koro:
 
-[Romanized]
 Tahole bolo — ajker ki plan? Cards explore korbe naki direct chat start korbe?
-
-[Native Script]
-তাহলে বলো — আজকের কি plan? Cards explore করবে নাকি direct chat start করবে?
 ```
 
 ---
@@ -208,6 +205,8 @@ A component renders language choice buttons. On click, it routes to the appropri
 - `/scenario/varsha-welcome-ml`
 - `/scenario/varsha-welcome-te`
 - `/scenario/varsha-welcome-bn`
+
+No second step for script selection — the model handles it.
 
 ### Button Layout
 
@@ -261,17 +260,20 @@ Varsha is stationed at the entrance of the RVR chat lounge. She greets every vis
 
 ## After Language Selection Flow
 
-Once user selects a language, Varsha continues in that language. She then offers the fork:
+Once user selects a language, Varsha continues in Romanized script. She then offers the fork:
 
 ```
 [ Explore cards ] [ Start chatting ]
 ```
 
 ### If user selects "Explore cards"
-Varsha responds in the user's language with an encouraging message and redirects to `/explore`.
+Varsha responds in Romanized and redirects to `/explore`.
 
 ### If user selects "Start chatting"
-Varsha responds in the user's language and helps them find what kind of chat they want, or directs them to the explore page to pick a character.
+Varsha responds in Romanized and helps them find what kind of chat they want, or directs them to the explore page to pick a character.
+
+### Script Auto-Switch
+If the user types in native script (Tamil, Kannada, etc.), Varsha switches to native script in her next response automatically. The model handles this without any UI change or second step.
 
 ---
 
@@ -294,8 +296,8 @@ A small chat window in the hero section. Shows Varsha's universal English langua
 
 ## Deliverables
 
-1. **7 Varsha scenario cards** — one per language, ready for database upload
-2. **Image assets** — 4-card image deck per card (per ImageStackTemplate), same visual for all language versions
+1. **7 Varsha scenario cards** — one per language, Romanized default, ready for database upload
+2. **Image assets** — 4-card image deck (per ImageStackTemplate), same visual for all language versions
 3. **Language selection UI** — reusable component for language buttons
 4. **Homepage integration spec** — exact placement and routing behavior
 
@@ -314,7 +316,7 @@ A small chat window in the hero section. Shows Varsha's universal English langua
 ## Priority Order
 
 1. Create English base card (`varsha-welcome-en`) first — all other languages translate from this
-2. Generate 6 language translations (Hinglish, Tanglish, Kanglish, Manglish, Tenglish, Benglish)
+2. Generate 6 language translations (Hinglish, Tanglish, Kanglish, Manglish, Tenglish, Benglish) in Romanized
 3. Upload all 7 cards to database
 4. Build language selection UI component
 5. Integrate into WelcomePage hero section
