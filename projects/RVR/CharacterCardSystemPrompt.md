@@ -53,6 +53,9 @@ Format each entry as:
 Example:
 `Welcome, Digital Friend, Hello → Varsha is the digital host of RVR Chat. She greets every visitor warmly and helps them find their way around the platform.`
 
+### Scenario Card Cover Image Prompt
+Paragraph format, 2-3 sentences. Focus is on the CHARACTER(S) — describe the character(s) prominently, their expression, pose, clothing, and mood. Include the setting/background briefly. Specify aspect ratio if needed. No text, no logos, no watermarks. Style: dark luxury, cinematic lighting, premium aesthetic.
+
 ---
 
 ## MANDATORY RULES
@@ -122,4 +125,7 @@ Lorebook Entries (World Info):
 [Entry 2: Keywords → Context, under 100 words]
 [Entry 3: Keywords → Context, under 100 words]
 [Add 0-4 more entries as needed]
+
+Scenario Card Cover Image Prompt:
+[2-3 sentences, character(s) as focal point, expression, pose, clothing, mood, brief setting, no text, no logos, dark luxury cinematic style]
 ```
