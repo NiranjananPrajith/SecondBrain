@@ -98,5 +98,6 @@ Only include things that are actually relevant today — no fluff.*
 
 ## Journal Entries
 
+### [[2026-04-12]]
 ### [[2026-04-11]]
 ### [[2026-04-10]]
