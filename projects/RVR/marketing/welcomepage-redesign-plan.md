@@ -1,6 +1,7 @@
 # WelcomePage Redesign — Landing Page Plan
 
 **Created:** 2026-04-12
+**Updated:** 2026-04-12 (7 language cards, language selection flow, Romanized default)
 **Status:** PLANNING
 **Type:** Frontend redesign
 
@@ -30,9 +31,9 @@ The current homepage ("Explore Library" from explore page hero) answers "what is
 ### Hero Section
 
 **Left column (desktop) / Full width (mobile):** Varsha as receptionist anchor
-- Chat widget showing Varsha's first message (live, interactive)
-- Below the chat: two buttons — "Explore karo" and "Start chatting"
-- Varsha's portrait/character card visible alongside
+- Chat widget showing Varsha's universal English prompt with 7 language buttons
+- On language button click → redirects to `/scenario/varsha-welcome-{lang}`
+- Varsha's portrait visible alongside
 
 **Right column (desktop only):**
 - Headline: The multilingual promise in one punchy line
@@ -45,7 +46,7 @@ The current homepage ("Explore Library" from explore page hero) answers "what is
 ### Feature Highlights Section (below hero)
 
 3-4 feature blocks in a row (stacked on mobile):
-- **Multilingual AI** — "Speaks Hinglish, Tanglish, Manglish naturally"
+- **Multilingual AI** — "Speaks Hinglish, Tanglish, Kanglish, Manglish naturally"
 - **Voice AI** — "Voice responses in Indian accents"
 - **Memory** — "Remembers your conversations across sessions"
 - **Privacy** — "Your chats stay private. Always."
@@ -65,11 +66,46 @@ Each card: thumbnail + name + language tag. Clicking opens the card. This sectio
 Large, simple:
 - Headline: "Ready to chat?"
 - Subtext: "Free to start. No filters."
-- Button: "Start Chatting with Varsha" → opens chat with varsha-welcome card
+- Button: "Start Chatting" → opens chat with selected Varsha card (or defaults to English)
 
 ### Footer (standard)
 
 Links, legal, copyright.
+
+---
+
+## Language Selection Flow (Hero Widget)
+
+The chat widget in the hero is Varsha's language selection interface:
+
+```
+[ Widget: 280-320px wide ]
+
+Hey! Welcome to RVR! 🌟
+I'm Varsha — your digital friend!
+Choose your language to get started:
+
+[ 🇬🇧 English ]
+[ 🇮🇳 हिंदी/Hinglish ]
+[ 🇮🇳 தமிழ்/Tanglish ]
+[ 🇮🇳 ಕನ್ನಡ/Kanglish ]
+[ 🇮🇳 മലയാളം/Manglish ]
+[ 🇮🇳 తెలుగు/Tenglish ]
+[ 🇮🇳 বাংলা/Benglish ]
+```
+
+On click, routes to:
+- `/scenario/varsha-welcome-en` (English)
+- `/scenario/varsha-welcome-hi` (Hinglish)
+- `/scenario/varsha-welcome-ta` (Tanglish)
+- `/scenario/varsha-welcome-kn` (Kanglish)
+- `/scenario/varsha-welcome-ml` (Manglish)
+- `/scenario/varsha-welcome-te` (Tenglish)
+- `/scenario/varsha-welcome-bn` (Benglish)
+
+### Button Layout in Widget
+
+2-column grid inside the widget. Each button: flag emoji + language name (English name, not native script).
 
 ---
 
@@ -78,23 +114,24 @@ Links, legal, copyright.
 ### Chat Widget (Hero)
 
 - Appears as a small chat window (280-320px wide)
-- Varsha's first message displayed in the widget on page load
-- User can type a response (limited interaction — redirects to full chat on submit)
-- Submit button: "Chat with Varsha" → opens full chat session on /scenario/varsha-welcome
+- Shows Varsha's universal English prompt + 7 language buttons on page load
+- No typing required — just one click to enter chat in chosen language
 - Mobile: Full-width widget
 
 ### Buttons
 
+Routing for all CTAs:
+- Language buttons in widget → `/scenario/varsha-welcome-{lang}`
 - "Explore karo" → `/explore`
-- "Start chatting" → `/scenario/varsha-welcome`
-- "Start Chatting" (hero CTA) → `/scenario/varsha-welcome`
-- "Explore Library" (secondary CTA) → `/explore`
+- "Start chatting" → `/scenario/varsha-welcome-en` (defaults to English)
+- "Explore Library" (secondary) → `/explore`
 
 ### What Happens After Varsha
 
 Varsha's card flow (as specified in `varsha-creation-plan.md`) handles the fork:
 - User picks "explore" → redirected to /explore
-- User picks "chat" → proceeds with chat session
+- User picks "chat" → proceeds with chat session in chosen language
+- Model auto-switches to native script if user types in native script
 
 ---
 
@@ -117,16 +154,13 @@ Varsha's card flow (as specified in `varsha-creation-plan.md`) handles the fork:
 **Option 2 (conversational):**
 "Finally, an AI that understands Hinglish."
 
-**Option 3 ( Varsha-voice):**
-"Aapki digital dost aapke liye ready hai."
-
-**Recommendation:** Option 1 or 2 for headline. Option 3 works as sub-headline or Varsha's widget intro.
+**Recommendation:** Option 1 or 2 for headline.
 
 ### Feature Blocks (proposed)
 
 | Feature | Title | One-liner |
 |---------|-------|-----------|
-| Multilingual AI | "Speaks your language" | "Hinglish, Tanglish, Manglish — naturally. No translation mode." |
+| Multilingual AI | "Speaks your language" | "Hinglish, Tanglish, Kanglish, Manglish, Benglish — naturally. No translation mode." |
 | Voice AI | "Voice responses" | "Indian accents. Indian emotions. Indian context." |
 | Memory | "Remembers you" | "Your character's lore persists across sessions." |
 | Privacy | "Private by default" | "Your conversations stay between you and your AI. Always." |
@@ -143,11 +177,11 @@ Max 8 per row. Horizontal scroll if more.
 
 ## Implementation Notes
 
-### varsha-welcome Card Integration
+### varsha-welcome Cards Integration
 
-- Homepage must be updated only AFTER varsha-welcome card is created and live in the database
-- The card ID for varsha-welcome must be confirmed before linking
-- Fallback: if card not ready, show a static "Varsha" intro instead of live chat widget
+7 cards total — one per language. Homepage must be updated only AFTER all 7 cards are created and live in the database. Card IDs must be confirmed before linking.
+
+Fallback: if cards not ready, show a static "Varsha" intro with language buttons that route to a placeholder.
 
 ### Ad UTMs
 
@@ -166,8 +200,8 @@ All content above the fold must be SFW. The homepage is the public face — it m
 
 ## Deliverables
 
-1. **Redesigned WelcomePage** (`/`) — new hero, features, card showcase
-2. **varsha-welcome card live** — created and integrated (see `varsha-creation-plan.md`)
+1. **Redesigned WelcomePage** (`/`) — new hero with language selection, features, card showcase
+2. **7 Varsha cards live** — created and integrated (see `varsha-creation-plan.md`)
 3. **UTM tracking** — analytics integration for ad traffic
 4. **Mobile-first QA** — tested on iOS Safari and Android Chrome
 
@@ -175,7 +209,8 @@ All content above the fold must be SFW. The homepage is the public face — it m
 
 ## Dependencies
 
-- varsha-welcome card creation (varsha-creation-plan.md)
+- All 7 varsha-welcome cards created (varsha-creation-plan.md)
+- Language selection UI component built
 - Image assets for feature section (optional — can use iconography)
 - UTM param handling in analytics
 - SFW review of all homepage content
@@ -184,6 +219,6 @@ All content above the fold must be SFW. The homepage is the public face — it m
 
 ## Priority
 
-**Phase 1 (now):** Hero section with Varsha + feature highlights + card showcase
+**Phase 1 (now):** Hero section with Varsha language selection + feature highlights + card showcase
 **Phase 2 (later):** UTM tracking + analytics integration
 **Phase 3 (later):** Voice AI showcase section (once voice tier is live)
