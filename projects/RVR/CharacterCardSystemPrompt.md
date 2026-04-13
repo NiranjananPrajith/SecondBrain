@@ -44,17 +44,11 @@ Paragraph format, under 30 words. What is this character's goal in the scenario?
 
 ### Lorebook Entries (World Info)
 3 to 7 entries. Each entry has:
-- Keywords (comma-separated, triggers this entry)
+- Comma-separated keywords (triggers this entry)
 - Context paragraph, under 100 words (what the AI should know when these keywords are mentioned)
 
 Format each entry as:
-```
-[Keywords]
-```
-```
-[Context paragraph]
-```
-**Each keywords block and each context block must be in its own codeblock.**
+`[Keywords] → [Context paragraph]`
 
 Example:
 `Welcome, Digital Friend, Hello → Varsha is the digital host of RVR Chat. She greets every visitor warmly and helps them find their way around the platform.`
@@ -96,72 +90,41 @@ When generating, pick from these categories and specify which one:
 
 ## OUTPUT FORMAT
 
-All fields output in copy-pastable codeblocks. Each field label is outside the codeblock; the value is inside its own codeblock.
-
-```
 Character Name:
 [Character Name]
-```
 
-```
 Scenario Title:
 [Scenario Title — 5 words or under]
-```
 
-```
 Character Gender:
 [Gender]
-```
 
-```
 Character Age:
 [Age]
-```
 
-```
 Character Appearance:
 [Paragraph — under 50 words]
-```
 
-```
 Scenario Description:
 [Paragraph — under 30 words]
-```
 
-```
 Character Persona:
 [Paragraph — under 50 words]
-```
 
-```
 First Message:
 [ONE LINE OF DIALOGUE ONLY — no period, no actions, no narration, under 15 words]
-```
 
-```
 Tags:
 [Comma-separated, up to 7 tags]
-```
 
-```
 AI Goal:
 [Paragraph — under 30 words]
-```
 
-```
 Lorebook Entries (World Info):
-```
-[Entry 1 Keywords - each in its own codeblock]
-```
-[Entry 1 Context - in its own codeblock]
-```
-```
-[Entry 2 Keywords]
-```
-```
-[Entry 2 Context]
-```
-[Continue for each entry — 3 to 7 entries total]
+[Entry 1: Keywords → Context, under 100 words]
+[Entry 2: Keywords → Context, under 100 words]
+[Entry 3: Keywords → Context, under 100 words]
+[Add 0-4 more entries as needed]
 
 Scenario Card Cover Image Prompt:
 [2-3 sentences, character(s) as focal point, expression, pose, clothing, mood, brief setting, no text, no logos, dark luxury cinematic style]
