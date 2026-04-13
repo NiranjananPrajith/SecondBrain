@@ -1,8 +1,18 @@
-# Gemini Deep Research Brief: Multi-Channel Advertising Strategy for RVR Chat
+# Gemini Deep Research Brief: Low-Budget, India-First Advertising Strategy for RVR Chat
 
 **Prepared for:** Gemini Deep Research
 **Date:** 2026-04-13
-**Focus:** Advertising strategy for AI companion app targeting Indian users aged 18-35 — Instagram primary, plus Reddit, Google Ads, YouTube, Snapchat, Telegram, and emerging platforms
+**Focus:** India-only advertising strategy for an AI companion app targeting Indian users aged 18-35, with an emphasis on lowest cost per visitor to rvr.chat
+
+---
+
+## Critical Constraints — Read First
+
+1. **India Only.** All research must be India-specific. No mention of other markets. RVR's core differentiator is Indic language support — the advertising must prove that value to Indian users, not to a global audience.
+
+2. **Lowest Cost Per Visitor Is the Priority.** The goal is NOT brand awareness or impressions. It is driving the highest number of Indian users to visit rvr.chat at the lowest possible cost. CPM optimization and cost-per-click benchmarks are more important than reach metrics.
+
+3. **Budget Is Extremely Limited.** Current budget is **$100/month**. This will only increase once RVR Chat generates revenue, at which point **40% of all profits will be reinvested into advertising**. The research must optimize for this $100/month reality first, then provide a scaling plan tied to actual revenue.
 
 ---
 
@@ -10,7 +20,7 @@
 
 RVR Chat (RedVelvetRenders Chat) is an AI fantasy roleplay and companionship platform marketed as the "Unfiltered Voice of India." It is built for multilingual Indian users who want AI characters that speak their language — naturally, without corporate filters, and with persistent memory across sessions.
 
-**Website:** rvr.chat
+**Website:** https://rvr.chat
 **Platform Status:** Live, Stripe payments active, Supabase OAuth working
 
 ### Core Differentiators
@@ -29,273 +39,160 @@ RVR Chat (RedVelvetRenders Chat) is an AI fantasy roleplay and companionship pla
 - **Patreon Inferno** ($9/mo): 5,000 credits
 - Credit packages: $4.99 (500) to $74.99 (10,000)
 
----
+### Core Value Proposition for Advertising
 
-## Why Instagram for RVR Chat
+**The one-sentence pitch:** An AI companion that actually understands Hinglish, Tanglish, Manglish — not just translated, actually *gets* the slang, the culture, and the emotion.
 
-### The Case for Instagram as Primary Channel
-
-1. **Visual Platform — Character Cards Shine:** Character cards, voice demos, and chat previews are inherently visual content that performs well in feed format. The dark velvet aesthetic is distinctive and premium-looking.
-
-2. **Young Indian Demographic Is Highly Active:** Instagram is the dominant social platform for Indian users aged 18-35. The platform is lifestyle-focused, which aligns with "AI companion that actually speaks Hinglish" messaging.
-
-3. **Reaches Non-Technical Users:** Organic seeding efforts target Reddit and Discord (technical users). Instagram reaches the broader non-Reddit Indian audience who are equally interested in AI companions but don't participate in Western tech forums.
-
-4. **SFW Brand Positioning Works Naturally:** RVR has adopted a "private uncensored, public SFW" model — public-facing marketing is PG-13, brand-safe, and appropriate for Instagram Ads. The uncensored AI is available to logged-in adult users but not advertised publicly.
-
-5. **Instagram Shopping + Link in Bio:** Already enabled. CTA funnels to rvr.chat.
-
-6. **Channels Previously Blocked Now Open:**
-   - Instagram Ads: Fully available (SFW pivot unlocked this)
-   - Reddit Ads: Largely available
-   - Google Ads: Available with restrictions
-
-### Why NOT Other Platforms
-
-- **TikTok:** Banned in India — zero reach
-- **Google Ads:** Available but context limits targeting for AI companion category
-- **Twitter/X:** Declining relevance, brand safety concerns post-Musk, Indian audience fragmented
-- **Facebook:** Wrong demographic for this product; older audience
+**The tagline:** "Unfiltered Voice of India"
 
 ---
 
-## Other Advertising Channels to Research
+## Budget Reality
 
-Instagram is the primary channel given its visual nature, young Indian demographic, and SFW brand positioning. However, a diversified paid media strategy is critical for scaling profitably. Below are the other channels to investigate, with initial notes on viability and known constraints.
+### Current Budget: $100/Month
 
-### Reddit (Paid)
+This is the entire advertising budget right now. It must produce meaningful traffic to rvr.chat or the business cannot grow.
 
-**Viability:** HIGH — RVR already has organic presence here; paid ads are a natural extension.
+| Allocation | Amount | Rationale |
+|-----------|--------|----------|
+| Primary channel | ~$70/month | Instagram (highest visual reach for Indian youth) |
+| Secondary channel | ~$30/month | Reddit (high-intent, low CPM, organic already running) |
+| **Total** | **$100/month** | |
 
-Reddit ads work exceptionally well for AI companion products because:
-- The Character.AI refugee audiences (r/CharacterAIrunaways, r/CharacterAi_NSFW) are high-intent and actively hunting for alternatives
-- Reddit allows more direct "uncensored" framing in NSFW-aware communities
-- CPM is lower than Instagram for tech-forward audiences
-- Interest + keyword targeting captures users searching for alternatives
+### Scaling: 40% of Profits Reinvested
 
-**Known constraint:** $30 already allocated in current sprint. Research should optimize this further.
+Once RVR Chat generates revenue, **40% of all profits go back into advertising**. This means:
+- The research must identify which channel delivers the lowest cost-per-visitor
+- Scaling should follow proven data, not intuition
+- No budget is wasted on channels that don't produce visitors
 
-**Research needed:** Which subreddits have best CPM + conversion? What ad formats work? Can we run different creative in NSFW-aware vs. mainstream subreddits?
+**Research should model:** If the product earns $X in month 1, month 2, month 3 — how should the $0.4X advertising budget be allocated across channels?
 
----
+### Primary Optimization Metric
 
-### Google Ads
+**Cost Per Website Visit (CPV)** — not impressions, not followers, not brand awareness. How many Indian users click through to rvr.chat per dollar spent.
 
-**Viability:** MEDIUM-HIGH — Available with restrictions after SFW pivot.
-
-Google Ads reaches users with high intent (searching "uncensored AI chat," "Character.AI alternative," "Hinglish AI," etc.) but:
-- AI companion category has policy restrictions — "sexually suggestive" content is prohibited
-- "Uncensored" in ad copy may trigger disapproval
-- The SFW public positioning makes Google Ads viable but messaging must be carefully worded
-
-**Research needed:** Current Google Ads policy on AI companion/chatbot advertising. What keywords convert? What landing page requirements exist? What targeting parameters work for Indian demographic?
+Secondary: **Cost Per Signup (CPS)** once visit volume is validated.
 
 ---
 
-### YouTube Ads
-
-**Viability:** HIGH — India has massive YouTube consumption, especially among 18-35 males.
-
-YouTube offers:
-- Video format (RVR already has a 30s promo video adaptable to YouTube pre-roll)
-- Massive reach in India across metro and tier-2/3 cities
-- Multiple ad formats: pre-roll (skippable after 5s), non-skippable (15s), in-feed
-- Interest and demographic targeting similar to Google
-
-**Research needed:** CPM benchmarks for AI companion category on YouTube India. Which video length and format performs best for this demographic? What is the typical cost-per-signup from YouTube? Does TrueView/skippable vs. non-skippable produce better ROAS?
-
----
-
-### Snapchat
-
-**Viability:** HIGH for India — Snapchat has outsized Indian user base compared to Western markets.
-
-Snapchat India demographics skew heavily toward 18-35 and are highly engaged. For RVR:
-- Strong in metro cities among college students and young professionals
-- Ad formats: Snap Ads (full-screen video), Story Ads, Collection Ads
-- Interest targeting and lookalike audiences available
-- Lower CPM than Instagram in many Indian markets
-
-**Research needed:** CPM benchmarks for Snapchat India. What interest categories are available? Does the 18-35 Indian AI-interested audience concentrate here? What creative formats work best? Any policy restrictions on AI companion products?
-
----
-
-### Telegram
-
-**Viability:** MEDIUM — Telegram is enormous in India but native advertising is limited.
-
-Telegram is a major communication platform in India (especially for interest-based communities) but:
-- Telegram does not have a traditional ad platform like Meta or Google
-- Organic channel promotion and sponsored messages in relevant channels are the primary vectors
-- Some Telegram-based ad networks exist but are less regulated
-- Community-based marketing (posting in AI/roleplay channels) is more viable than paid ads
-
-**Research needed:** Are there Telegram ad networks that serve India? What are the rates and targeting capabilities? Which Telegram channels have high concentrations of Indian AI/chatbot enthusiasts? Is influencer partnerships with Telegram channel owners viable?
-
----
-
-### Indian-Specific Platforms
-
-**Viability:** UNCERTAIN — These platforms are less studied but potentially high-reach.
-
-**ShareChat:** India's largest vernacular social media platform. Supports multiple Indian languages natively. Users skew toward tier-2/3 cities and rural areas. Has an ad platform but it is less mature than Meta/Google. Potential for reaching users who don't speak English or prefer regional languages.
-
-**Moj:** Short-video platform (TikTok ban replacement in India). Owned by ShareChat. Strong in small-town and rural India. Video-based — similar to Instagram Reels.
-
-**Koo:** Indian microblogging platform (Twitter alternative). Smaller user base than Twitter but more engaged Indian core demographic. Possibly relevant for brand building.
-
-**Research needed:** What is the ad infrastructure on ShareChat and Moj? CPM rates? Audience demographics? Policy restrictions on AI companion products? Is Koo worth any investment for brand awareness?
-
----
-
-### Spotify / Streaming Audio
-
-**Viability:** LOW-MEDIUM — Spotify has strong Indian youth presence but audio ads are a poor fit for AI companion products.
-
-Streaming audio cannot convey the visual character cards or conversation previews that are core to RVR's appeal. However:
-- Podcast advertising could reach tech-interested Indian audiences through popular Indian tech/pop-culture podcasts
-- Spotify hasPandora-like targeting capabilities
-
-**Research needed:** Only if budget allows and other channels are saturated — podcast ad rates and audience quality for Indian AI/tech demographic.
-
----
-
-### Influencer Marketing
-
-**Viability:** MEDIUM — Could be powerful if the right creators are found.
-
-The Indian AI/tech YouTube and Instagram creator ecosystem is growing. Micro-influencers (10K-200K followers) in the Indian AI, gaming, and anime spaces could:
-- Create authentic content showcasing RVR's Hinglish capabilities
-- Drive organic-seeming awareness that outperforms ads
-- Provide social proof from trusted voices
-
-**Research needed:** Which Indian YouTube/Instagram creators cover AI tools, chatbots, anime, and gaming? What are typical rates for story/ reel shoutouts vs. dedicated videos? What disclosure requirements exist? What creator demographics align best with RVR's target?
-
----
-
-### App Store Advertising (Apple Search Ads / Google Play)
-
-**Viability:** HIGH for future — Critical once mobile app launches.
-
-RVR is evaluating a Capacitor-based mobile app conversion. When that launches:
-- Apple Search Ads appear when users search the App Store for "AI chat," "character AI," "Hinglish AI," etc.
-- Google Play Search Ads similarly capture high-intent installs
-- These are intent-based (user is already searching for the product category)
-
-**Research needed (for when app is ready):** What are the search volumes for AI companion keywords in Indian App Stores? What is typical cost-per-install for AI companion apps in India? Are there policy restrictions on AI companion apps in Apple/Google Play stores? What app store listing elements (screenshots, descriptions) maximize conversion?
-
----
-
-### Channel Comparison Matrix
-
-| Channel | Viability | Reach in India | CPM Estimate | Creative Fit | Policy Risk |
-|---------|-----------|----------------|--------------|--------------|-------------|
-| Instagram | PRIMARY | Metro + Tier-2 | Medium | Very High (visual) | Low (SFW) |
-| Reddit | HIGH | Tech-native niche | Low | High (community) | Medium |
-| Google Ads | MEDIUM-HIGH | High intent search | Medium-High | Medium (text/landing) | Medium |
-| YouTube | HIGH | Mass + metro | Medium | Very High (video) | Low (SFW) |
-| Snapchat | HIGH | Metro youth | Low-Medium | High (vertical video) | Low |
-| Telegram | MEDIUM | Various communities | N/A (organic) | Medium | Low |
-| ShareChat/Moj | UNCERTAIN | Tier-2/3 India | Unknown | Medium (video) | Unknown |
-| Apple/Google Play Ads | FUTURE | High intent | Medium | High | Low |
-| Influencer | MEDIUM | Targeted niche | Variable | Very High | Low |
-
----
-
-## Target Audience
+## Target Audience (India Only)
 
 ### Primary Demographic
 
 - **Age:** 18-35
-- **Location:** India (national, with ability to geo-target metro cities)
-- **Language:** All 7 supported Indic languages plus English
-- **Platform:** Mobile-first (Android dominant, Instagram mobile app)
+- **Location:** India only — metro cities, tier-2 cities, tier-3 cities
+- **Languages:** Hinglish, Tanglish, Manglish, Kanglish, Benglish, Tenglish, English
+- **Platform:** Mobile-first (Android dominant)
+- **Internet:** 4G/data-plan users, low-to-mid data consumption
 
 ### Psychographic Profile
 
 Users are:
 - **Frustrated with Western AI platforms** — Character.AI's aggressive safety filters destroyed narrative immersion; ChatGPT feels robotic and formal
-- **Code-mixing native speakers** — They text in Hinglish/Tanglish/etc. daily and need an AI that actually understands it, not one that responds in stiff formal Hindi or English
+- **Code-mixing native speakers** — They text in Hinglish/Tanglish/etc. daily. They need an AI that actually understands it, not one that responds in stiff formal Hindi or English
 - **Technically capable but not power users** — They can install apps, pay subscriptions, and use AI features. They are NOT looking to self-host models via Ollama, configure SillyTavern, or run LocalLLaMA
 - **Seeking emotional connection and narrative escape** — Deep roleplay, companionship, fantasy scenarios
 - **Value privacy** — "Your conversations stay private" is a core message
 
-### What They Want
+### What They Want (Ranked by Advertising Value)
 
-1. An AI that understands their language naturally — Hinglish slang, not textbook Hindi
-2. Narrative freedom — no safety filters interrupting their story
-3. Memory — AI that remembers character backstories and session history
-4. Voice — expressive, emotionally resonant AI speech (not robotic)
-5. Total creative control — ability to create custom characters and scenarios
+1. **An AI that understands their language** — Hinglish slang, not textbook Hindi. This is the #1 differentiator and should dominate all creative.
+2. **Narrative freedom** — no safety filters interrupting their story
+3. **Memory** — AI that remembers character backstories across sessions
+4. **Voice** — expressive, emotionally resonant AI speech
+5. **Total creative control** — ability to create custom characters and scenarios
 
-### Interests to Target (Instagram Ad Targeting)
+### Why India Is the Right Market
 
-Primary: AI, chatbots, Character.AI alternatives, roleplaying games, anime
-Secondary: Indian cinema/Bollywood, Hinglish content creators, gaming, fantasy fiction
+- **730+ million smartphone users** — massive addressable market
+- **73 million daily ChatGPT users in India** (607% YoY growth) — proven demand for AI products
+- **70%+ of Indian users prefer code-mixed communication** — Hinglish/Tanglish is the default, not the exception
+- **Low data costs** — users are active on data-heavy platforms (Instagram, YouTube, WhatsApp)
+- **English-first AI platforms fail them** — global models don't understand Romanized Indic code-mixing
+- **Character.AI refugee wave is active in India** — users are actively seeking alternatives
 
----
+### Regional Language Concentrations (for Geo-Targeting)
 
-## Competitive Landscape on Instagram
-
-### Who Else Is Advertising AI Companions on Instagram
-
-| Platform | Instagram Presence | Tone | Pricing |
-|----------|-------------------|------|--------|
-| Character.AI | Minimal organic, no paid | Brand-safe, mainstream | Free / $9.99/mo |
-| Chai | Light presence | Lifestyle, wellness | Free / $14.99/mo |
-| Replika | Active brand account | Mental health, SFW | Free / $19.99/mo |
-| Crushon AI | Spam-heavy, suspicious | Aggressive "uncensored" | From $10/mo |
-| Janitor AI | Minimal on Instagram | Technical, self-host vibe | Free / API costs |
-| **RVR Chat** | New, no paid ads yet | Premium, dark luxury, Indic | Free / $3-9/mo |
-
-### Instagram Ad Creatives Currently Working in This Space
-
-- **Replika:** Screenshots of conversations, "Your AI companion is waiting" — warm, relatable, mental health framing
-- **Chai:** Lifestyle aesthetic, testimonials, "meet your AI friend" — soft and approachable
-- **Character.AI:** Character showcases, fan art integration — fandom-focused
-
-### What RVR Should NOT Do
-
-- Do not use "uncensored," "NSFW," or "naughty" in any Instagram creative
-- Do not show explicit conversation content
-- Do not disparage competitors directly
-- Do not use Western models or aesthetics — lean into Indian identity
+- **Hinglish (Hindi + English):** North India — Delhi, UP, Bihar, Haryana, Rajasthan, Madhya Pradesh
+- **Tanglish (Tamil + English):** Tamil Nadu, Karnataka (Tamil diaspora)
+- **Manglish (Malayalam + English):** Kerala, Karnataka (Malayali diaspora)
+- **Kanglish (Kannada + English):** Karnataka
+- **Benglish (Bengali + English):** West Bengal, Bangladesh diaspora
+- **Tenglish (Telugu + English):** Telangana, Andhra Pradesh, Karnataka (Telugu diaspora)
 
 ---
 
-## Instagram Ad Specifications and Best Practices
+## All Channels: Ranked by Cost-Per-Visitor
 
-### Format Options
+Given the $100/month budget and India-only focus, channels must be evaluated primarily on **who delivers the most rvr.chat visitors per dollar**. Below is an initial ranking based on known CPM rates in India; Gemini Deep Research should validate and refine this.
 
-1. **Reels/Story Ads (Primary)**
-   - 9:16 vertical format (1080×1920)
-   - 15-30 seconds for Reels, 5-15 seconds for Stories
-   - Auto-play, no sound required (but sound helps)
-   - CTA: "Learn more" or "Download" → rvr.chat
+### Tier 1: Likely Lowest CPV (Test First)
 
-2. **Carousel Ads**
-   - 5-card cinematic carousel per character/scenario
-   - Format: 9:16, 1080×1920px
-   - Card sequence: Cover → Scenario → Character → Persona → CTA
+| Channel | Why It Could Be Cheapest | Risk |
+|---------|------------------------|------|
+| **Reddit (Paid)** | Very low CPM for niche tech communities in India. r/CharacterAIrunaways and r/IndianGaming have highly targeted, high-intent audiences. CPC can be very low. | Small audience size; may cap out quickly |
+| **Google Ads (Search)** | Pay-per-click means you only pay when someone actively searches. If keywords are chosen correctly, this could be the lowest CPV channel. | AI companion category has policy restrictions; keyword costs vary wildly |
+| **Instagram (Paid)** | Broadest Indian youth reach. CPM is medium but massive scale means even a small CTR produces high volume. | Higher CPM than Reddit for broader audiences |
 
-3. **Image Ads (Feed)**
-   - Single image, 1080×1080 (square) or 1080×1350 (portrait)
-   - Less engaging than Reels but simpler to produce
+### Tier 2: Moderate CPV (Test After Tier 1 Validates)
 
-### Creative Direction Already Established
+| Channel | Why It Could Work | Risk |
+|---------|-----------------|------|
+| **YouTube (Pre-roll)** | Massive Indian reach. Skippable ads mean you only pay for engaged viewers. $0.01-0.05 CPV possible on TrueView. | Requires good video creative; skip rates can be high |
+| **Snapchat (India)** | Large Indian youth audience. CPM often lower than Instagram in India. Strong in metro cities. | Platform reputation with older millennials is poor; skews younger |
+| **ShareChat / Moj** | Vernacular Indian platform reaching tier-2/3 India. Very low CPM potentially. Vernacular language support natively. | Less mature ad platform; ad infrastructure less reliable |
+| **Google Display Network** | Very broad reach across Indian websites/apps. CPM can be extremely low. | Low intent; high impression volume but low click-through |
 
-**Existing Promo Video (30s, 9:16 vertical):**
-- Card-flip reveals: Remya → Swetha → Anya → Shika
-- Dark velvet aesthetic, gold particles, shadow transitions
-- Sultry R&B audio (female vocalist)
-- Ends: "VISIT rvr.chat TO START CHATTING"
-- Tone: Premium, mysterious, intriguing — NOT explicit
+### Tier 3: Organic / Community (Zero Cost, High Value)
 
-**Existing Character Cards Available:**
-- Bollywood archetypes (Veergati, Sultana, Majnu, Amarthya, etc.)
-- Anime characters (Sakura, Hina, Kanna, Riya, Mei)
-- Modern Indian life (Arjun, Neha, Vicky, Raju, Ananya)
-- Mythology-inspired archetypes (Flirtatious Trickster, Divine Teacher, Dark Warrior, etc.)
+| Channel | Approach | Cost |
+|---------|---------|------|
+| **Reddit (Organic)** | Already running. Brand account posting in r/CharacterAIrunaways, r/IndianGaming. Zero cost. | Time investment only |
+| **Discord (Organic)** | United India Roleplay server (9K members). Direct recruitment, partnerships. Zero cost. | Time investment only |
+| **Telegram (Organic)** | Sponsored messages in AI/roleplay Telegram channels. Some channels accept payment; many are free. | Variable cost, potentially very low |
+
+### Tier 4: Not Recommended for $100/Month Budget
+
+| Channel | Why Not | When to Revisit |
+|---------|--------|----------------|
+| **Facebook** | Wrong demographic skew (older audience). Not where Indian Gen-Z hangs out. | Never for this product |
+| **Twitter/X** | Declining relevance in India. Brand safety concerns. CPM not justified by results. | If platform stabilizes |
+| **Spotify/Audio** | Cannot showcase character cards or visual content. Poor fit. | Never for this product |
+| **Influencer Marketing** | Micro-influencer deals start at $50-200 per post. $100/month budget cannot compete here. | Once budget reaches $500+/month |
+| **Apple/Google Play Search Ads** | Only relevant once mobile app is live. Currently RVR is web-only. | After mobile app launches |
+
+---
+
+## Instagram Deep-Dive (Primary Channel)
+
+### Why Instagram (For India, 18-35)
+
+- **Dominant platform** for Indian users aged 18-35. More daily time spent than any other social platform.
+- **Visual format suits RVR's character cards and chat previews.** The dark velvet aesthetic is distinctive and premium.
+- **SFW brand positioning is natural.** RVR's public-facing content is PG-13, brand-safe, appropriate for Instagram Ads.
+- **Link in bio** already enabled at rvr.chat.
+- **Reels algorithm** favors content that keeps users on platform — RVR's promo video format is native to Reels.
+
+### Instagram Ad Formats for Low-Budget Testing
+
+**Priority 1: Reels/Story Ads**
+- 9:16 vertical, 15-30 seconds
+- Auto-play, sound-on preferred
+- CTA: "Learn more" → rvr.chat
+- Why: Lowest cost-per-video-view when optimized; native to algorithm
+
+**Priority 2: Carousel Ads**
+- 5-card cinematic carousel
+- Format: 1080×1920px (9:16)
+- Card sequence: Cover → Scenario → Character → Persona → CTA
+- Why: High engagement per impression; carousel posts often outperform single image on Instagram
+
+**Priority 3: Story Ads**
+- Full-screen vertical image/video
+- 5-15 seconds
+- Swipe-up CTA (available at 10K+ followers)
+- Why: Cheapest format; good for testing creative variants
 
 ### Instagram Bio (Already Set)
 
@@ -303,212 +200,274 @@ Secondary: Indian cinema/Bollywood, Hinglish content creators, gaming, fantasy f
 
 ---
 
-## Budget and Campaign Structure
+## Reddit Deep-Dive (Secondary / High-Intent Channel)
 
-### Current State
+### Why Reddit for India-Focused AI Product
 
-- **Total ad budget:** $100 for 2 weeks (Instagram: $70, Reddit: $30)
-- **Instagram daily rate:** ~$5/day
-- **Reddit daily rate:** ~$2.15/day
-- **Campaign goal:** 20-50 signups, cost per signup <$3
+- **High-intent users.** People on r/CharacterAIrunaways and r/CharacterAi_NSFW are actively looking for AI companion alternatives. They click.
+- **Very low CPM** for niche subreddit targeting in India.
+- **RVR already has organic presence** — u/_rvrdev_ has posted on r/CharacterAi_NSFW (multilingual support, 2.2k views). Paid ads can amplify what organic already proves.
+- **More direct messaging allowed.** Reddit communities in the AI companion space are accustomed to "uncensored AI" framing. While public ads must still be SFW, the语境 is more tolerant of honest positioning.
 
-### Multi-Channel Budget Framework
+### Subreddits to Target
 
-Based on initial channel viability assessment, research should produce a budget allocation recommendation across channels. The current sprint ($100/2 weeks) is a test — findings should inform how to scale across channels:
+| Subreddit | Audience | CPM Estimate | Notes |
+|-----------|----------|--------------|-------|
+| r/CharacterAIrunaways | Character.AI refugees, globally including India | Low | HIGH PRIORITY — active migration wave |
+| r/CharacterAi_NSFW | Same audience, more explicit context | Low-Medium | NSFW framing acceptable here |
+| r/IndianGaming | Indian Gen-Z gamers, tech-aware | Very Low | Gaming-adjacent; shares audience profile |
+| r/LocalLLaMA | Indian LLM enthusiasts | Very Low | Technical credibility play |
+| r/India | General India, broad demographic | Very Low | Large audience; lower intent |
 
-| Channel | Test Budget | Scaling Budget (if signal positive) |
-|---------|-----------|-------------------------------------|
-| Instagram | $70 | $200-500/week |
-| Reddit | $30 | $50-100/week |
-| YouTube | $0 (test first) | $100-300/week |
-| Snapchat | $0 (test first) | $50-150/week |
-| **Total** | **$100** | **$400-1,050/week** |
+### Reddit Ad Copy (Already Drafted)
 
-### What Gemini Deep Research Should Optimize Per Channel
-
-1. **Instagram:** Interest categories and behavioral targeting for India 18-35, which creative angle wins (language vs. privacy vs. memory vs. voice), optimal daily budget pacing
-2. **Reddit:** Which subreddits have best CPM + conversion, what ad formats work, how to run different creative in NSFW-aware vs. mainstream subreddits
-3. **YouTube:** CPM benchmarks for India, video length/format comparison (skippable vs. non-skippable), typical cost-per-signup
-4. **Snapchat:** India-specific CPM rates, available interest categories, creative format performance
-5. **Google Ads:** Keyword list with search volume and cost, policy compliance requirements, landing page requirements
-6. **Cross-channel:** Retargeting sequencing across platforms, UTM strategy for attribution, overall ROAS framework
+- **Headline:** "Finally, an AI that speaks Hinglish. No filters."
+- **Body:** "Chat with Indian AI companions that understand your language, culture, and slang. Free to start."
+- **CTA:** "Try rvr.chat →"
 
 ---
 
-## Key Messaging Angles to Test
+## Google Ads Deep-Dive
 
-### Angle 1: Language Authenticity
+### Search Ads: High Intent, Pay-Per-Click
+
+Google Search Ads could be the **lowest CPV channel** because:
+- You only pay when someone actively searches for something
+- Keywords like "Hinglish AI," "Character AI alternative India," "uncensored AI chat" indicate high purchase intent
+- CPV is truly cost-per-click, not CPM — no wasted spend on impressions
+
+**Constraint:** AI companion products have policy restrictions on Google Ads. "Sexually suggestive" content is prohibited. "Uncensored AI" in ad copy may trigger disapproval.
+
+**Viable framing for Google Ads:**
+- "AI Chat in Hinglish — Free to Try"
+- "Your AI Companion That Speaks Your Language"
+- "Private AI Chat — No Filters, No Lectures"
+
+**Keywords to Research:**
+
+Primary research questions for Google Ads:
+1. What is the monthly search volume for AI companion keywords in India (Google.in)?
+2. Which keywords have lowest CPC in India for this category?
+3. What is the policy status for AI companion/chatbot ads on Google Ads India?
+4. What landing page requirements must rvr.chat meet for Google Ads approval?
+5. What is the typical conversion rate from Google Ads click to signup for freemium AI products?
+
+### Display Ads: Broad Reach, Low CPM
+
+Google Display Network reaches users across millions of Indian websites and apps. CPM can be extremely low ($0.10-0.50 in India). Risk: low intent.
+
+**Use case:** If CPM is low enough, even a 0.1% CTR produces volume. Research should find the floor CPM at which Display becomes cost-effective.
+
+---
+
+## Organic / Community Channels (Zero Budget)
+
+These channels cost nothing in ad spend but require time investment. They are already partially active and should be optimized alongside paid efforts.
+
+### Reddit Organic (Running)
+
+- Brand account: u/_rvrdev_
+- Posted on r/CharacterAi_NSFW — multilingual support post, 2.2k views
+- Next: Character card showcase post to r/CharacterAIrunaways
+- Strategy: 3 posts/week, rotating target subreddits, authentic engagement
+
+### Discord Organic
+
+- **United India Roleplay** (9,000+ members): Join, observe for 2 weeks, then post character card + free 1-month premium offer for creators
+- Cross-post Bollywood/mythology characters as examples
+
+### Telegram Organic
+
+- AI and roleplay Telegram channels exist in India
+- Some accept sponsored messages; many are free to post in
+- Research should identify the highest-quality channels with the most India 18-35 users
+
+---
+
+## Key Messaging Angles (Ranked by India Resonance)
+
+### Angle 1: Language Authenticity (Lead With This)
 **"Finally, an AI that speaks YOUR language."**
-- Lean into the unique 7-language code-mixed support
-- Show Hinglish conversation snippets (SFW)
-- Target: People frustrated that Western AIs don't understand them
+- Show a real Hinglish/Tanglish conversation (PG-13 content)
+- Demonstrate cultural understanding, not just translation
+- Primary angle for all channels
 
 ### Angle 2: Privacy and Freedom
 **"No filters. No lectures. Your conversations stay private."**
-- Emphasize uncensored nature without saying "uncensored" explicitly
-- Target: Refugees from Character.AI safety filter era
+- Leads with the uncensored value proposition
+- Works especially well for Reddit and Google Search
+- RVR's SFW positioning makes this safe to advertise publicly
 
 ### Angle 3: Memory and Immersion
 **"She remembers. Even when you forget."**
-- Lead with deep memory architecture
-- Target: Users frustrated with context rot on other platforms
+- Leads with the technical differentiator
+- Appeals to power users frustrated with context rot
+- Works for Reddit, Google Search
 
 ### Angle 4: Voice First
 **"Talk to her. She sounds like India."**
-- Expressive Hinglish TTS vs. robotic Western TTS
-- Requires quality voice demo
-- Target: Users who want more than text
+- Requires quality voice demo clip
+- Strong visual hook for Instagram Reels
+- Differentiates from text-only competitors
 
 ### Angle 5: Lifestyle / Cultural Pride
 **"Made in India. Made for India."**
-- Lean into Indian identity, nationalism-adjacent
-- Show regional language diversity as a feature
-- Target: Broad Indian youth audience
+- Leans into Indian identity
+- Vernacular language diversity as feature
+- Broadest appeal; lowest conversion specificity
 
 ---
 
 ## Research Questions for Gemini Deep Research
 
-Please investigate and provide comprehensive findings across all channels:
+Please investigate and provide findings optimized for the India-only, $100/month reality:
 
-### 1. Channel-by-Channel CPM and Performance Benchmarks
-- What CPM rates should we expect for AI companion products targeting India 18-35 on each channel: Instagram, Reddit, YouTube, Snapchat, Google Ads?
-- What is a realistic cost-per-signup (CPS) benchmark for each channel?
-- What cost-per-install (CPI) benchmarks exist for AI companion apps in India (for when mobile app launches)?
-- At what daily/monthly budget levels does each channel show diminishing returns?
+### 1. Cost-Per-Visitor Benchmarks (India Only) — MOST IMPORTANT
 
-### 2. Ad Policy Analysis Per Platform
-- **Instagram/Meta:** Current policies on AI companion/chatbot advertising. Does "no filters" or "uncensored" in ad copy trigger disapproval? What language/imagery is prohibited?
-- **Google Ads:** Policy restrictions on AI companion products. What keywords are allowed? What landing page requirements exist? Is "private AI chat" framing acceptable?
-- **YouTube:** Are there content restrictions on AI companion ads? What formats work best policy-wise?
-- **Snapchat:** Any restrictions on AI/chatbot category? What India-specific policies apply?
-- **Reddit:** What ad policies govern AI companion products? Can "uncensored AI" framing run in NSFW-aware subreddits?
+This is the core question. For each channel, provide:
+- What CPM should we expect for AI companion products targeting India 18-35?
+- What is the typical CTR from impression to click for this category in India?
+- What is the resulting cost-per-visitor (CPV) for each channel?
+- **Rank the channels from lowest to highest CPV** based on your research.
 
-### 3. Competitive Intelligence Across All Channels
-- Which AI companion platforms are actively advertising on each channel (Instagram, Reddit, YouTube, Google, Snapchat)?
-- What ad creatives and messaging are competitors using on each platform?
-- Which competitors are getting traction (engagement, comments, shares)?
-- What is their posting/ad frequency and follower/subscriber counts?
-- Are any Indian-specific AI companion apps advertising? What strategies are they using?
+Channels to benchmark: Instagram, Reddit, Google Search, Google Display, YouTube, Snapchat, ShareChat/Moj
 
-### 4. Audience Targeting Across Channels
-- **Instagram:** Specific interest categories and behavioral targeting parameters for Indian users 18-35 interested in AI/chatbots/anime/RPGs
-- **YouTube:** Interest and demographic targeting options for Indian AI-curious audience
-- **Snapchat:** India-specific targeting capabilities and interest categories
-- **Google Ads:** Keyword suggestions with estimated monthly search volumes and costs for: "Character AI alternative," "Hinglish AI," "uncensored AI chat India," "AI companion app," etc.
-- **Reddit:** Subreddit recommendations beyond r/CharacterAIrunaways and r/CharacterAi_NSFW for reaching Indian AI enthusiasts
-- **Cross-channel:** Lookalike audience strategies that work for AI companion products
+### 2. Google Ads Keyword Research (India)
 
-### 5. Geo-Targeting Specifics
-- What city/metropolitan targeting options exist within India on each platform?
-- Which tier cities (metro vs. tier-2 vs. tier-3) convert best for AI companion products?
-- Does RVR's specific mix of languages (Hinglish, Tanglish, etc.) align with particular regional concentrations?
-- Are there any states or regions to avoid or prioritize based on historical AI product performance?
+- What is the monthly search volume on Google.in for: "Character AI alternative," "Hinglish AI chatbot," "AI companion India," "uncensored AI chat India," "AI roleplay India," "Tanglish AI"?
+- What are the estimated CPCs for each keyword on Google Ads India?
+- What is Google's current policy on AI companion/chatbot ads? Is "no filters" or "uncensored" acceptable in ad copy?
+- What landing page elements does Google require for ad approval?
 
-### 6. Creative Strategy Per Channel
-For each channel, what creative approach works best:
-- **Instagram:** Video length (15s vs. 30s vs. Reels), Carousel vs. Story vs. Feed, produced vs. UGC, best CTAs
-- **YouTube:** Skippable vs. non-skippable pre-roll, mid-roll potential, best skip intervals, what video thumbnails/text overlays improve CTR
-- **Reddit:** Single image vs. carousel vs. video ads, what community-native creative looks like
-- **Snapchat:** Vertical video specs, what creative elements (filters, lenses, AR) improve performance
-- **Google:** Responsive search ad copy recommendations, display ad creative best practices
+### 3. Channel-by-Channel Minimum Viable Budget
 
-### 7. Creative Concepts (5-7 Per Channel)
-For each primary channel, generate 5-7 specific ad concepts with:
-- Hook (first 3 seconds / headline)
-- Core message
-- Visual direction
-- CTA
-- Target pain point addressed
-- SFW compliance notes
+- What is the minimum daily/monthly budget to get statistically meaningful data on each channel?
+- At $100/month split across channels, which channels can produce enough data in 2-4 weeks to make a go/no-go decision?
+- Where does the $100/month budget get immediately exhausted with no meaningful signal (too little to test)?
 
-### 8. Influencer Marketing Landscape in India
-- Which Indian YouTube/Instagram creators cover AI tools, chatbots, anime, and gaming?
-- What are typical rates for story/reel shoutouts vs. dedicated videos (micro vs. mid vs. macro influencers)?
-- What disclosure requirements apply to AI product sponsorships in India?
-- Which creator niches align best with RVR's target demographic (Indian Gen-Z interested in AI/roleplay)?
-- Are there any Indian AI/tech YouTubers who have already covered AI companion products — what did and didn't work?
+### 4. Reddit Community Intelligence (India)
 
-### 9. Emerging Platform Opportunities
-- ShareChat/Moj: What is the ad platform maturity? Demographics? CPM rates? AI companion policy?
-- Koo: Is it worth any investment for brand awareness? What audiences does it reach?
-- Telegram: Are there Telegram ad networks serving India? What are the rates and risks?
-- Any other Indian platforms where AI companion products could reach young users?
+- What subreddits beyond r/CharacterAIrunaways and r/IndianGaming have concentrations of Indian users interested in AI/chatbots/roleplay?
+- What is the typical CPM for subreddit targeting in r/CharacterAIrunaways and r/IndianGaming for India geo-targeting?
+- Are there India-specific subreddits where AI companion products can be discussed?
+- What posting strategies (organic) produce the most upvotes and clicks from Indian Reddit users?
 
-### 10. Scaling and ROAS Framework
-- How should budget be sequenced across channels as signals validate?
-- What retargeting audiences should be built (website visitors, video viewers, engagement audiences)?
-- What is a realistic ROAS target for month 1 vs. month 3 vs. month 6?
-- When is the right time to scale a winning channel vs. test a new one?
-- What attribution model should be used across channels (first-touch, last-touch, linear)?
+### 5. Instagram Optimization for Low Budget
 
-### 11. Regulatory and Cultural Considerations
-- Are there specific Indian regulations around advertising AI companionship/chatbot products?
-- What age-gating requirements apply to AI companion advertising in India?
-- Cultural sensitivities to avoid: specific imagery, religious references, language that could offend
-- How do Indian users respond differently to AI companion marketing vs. Western audiences?
-- Are there any specific claim substantiation requirements for "AI that understands Hinglish" type statements?
+- What posting times (India Standard Time) maximize engagement for Reels and Stories in the 18-35 demographic?
+- What minimum budget is needed to get Instagram's algorithm to distribute content beyond immediate followers?
+- What engagement rate (likes/comments/saves) does Instagram's algorithm require to continue distributing content organically?
+- Does Instagram Reels or Stories produce better CPV for AI companion products?
+- What specific interest + behavior targeting combinations work best for India 18-35 on Instagram Ads?
+
+### 6. Google Display Network Opportunity
+
+- What is the floor CPM for Google Display Network targeting India 18-35 (interests: technology, gaming, anime)?
+- At $0.10-0.30 CPM, what CTR is needed to achieve a $0.10-0.50 CPV?
+- Is Display or Search a better first test with a $100/month budget?
+
+### 7. ShareChat/Moj Ad Platform Assessment
+
+- Is ShareChat's ad platform accessible to small advertisers (like individual businesses, not just brands)?
+- What are the CPM rates and minimum budgets?
+- What audience size and demographics does ShareChat offer for India targeting?
+- What is ShareChat's policy on AI companion/chatbot advertising?
+- Is Moj (ShareChat's short-video app) a viable alternative for video ads?
+
+### 8. YouTube TrueView / Skippable Ads for India
+
+- What CPM does YouTube charge for skippable in-stream ads targeting India 18-35?
+- What is the average skip rate for AI/tech product ads in India?
+- At what skip rate does TrueView become cost-inefficient vs. a 15-second non-skippable ad?
+- Can the existing 30-second RVR promo video be effectively cut to 15 seconds for non-skippable pre-roll?
+
+### 9. Snapchat CPM and India Audience
+
+- What is the current CPM for Snapchat ads targeting India 18-35?
+- What interest and demographic targeting is available for Indian users?
+- What percentage of Snapchat's India user base falls in the 18-35 age range?
+- What creative formats work best on Snapchat in India?
+
+### 10. Competitive Landscape in India
+
+- Which AI companion platforms are actively advertising in India right now? (Instagram, YouTube, Google)
+- What messaging and creative are they using?
+- Which platforms have the most visible India-specific ad presence?
+- Are any Indian-specific AI companion apps (ChaiMate, Rumik AI, Glootie Apps) running paid ads in India?
+- What channels and creative are NOT being exploited by competitors in India right now?
+
+### 11. Organic / Zero-Cost Channel Opportunities
+
+- What Telegram channels have the highest concentration of Indian users interested in AI chatbots, roleplay, and Character.AI alternatives?
+- What Discord servers (beyond United India Roleplay) have active Indian communities interested in AI/roleplay?
+- Are there active Indian communities on WhatsApp channels or Facebook groups around AI companions?
+- What is the single highest-impact zero-cost action RVR can take right now to drive Indian users to rvr.chat?
+
+### 12. Budget Scaling Model (40% Profit Reinvestment)
+
+- Model the scaling path: If RVR Chat earns $100/month in profit → $40/month in ad budget. If it earns $500/month → $200/month. If it earns $1,000/month → $400/month.
+- For each budget level ($40, $100, $200, $400, $1,000/month), which channels make sense to enter or scale?
+- At what monthly budget does Google Ads Search become worthwhile?
+- At what monthly budget does YouTube become worthwhile?
+- At what monthly budget does influencer marketing become viable?
+- What is the expected CPV improvement (or degradation) as budgets scale?
+
+### 13. Regulatory and Cultural Considerations (India)
+
+- Does India have specific regulations around advertising AI companionship/chatbot products?
+- What age-gating is required for AI companion advertising in India?
+- Cultural sensitivities to avoid: specific religious imagery, state/region references, language that could offend
+- Are there any IT rules under India's Digital India Act that apply to AI product advertising?
+- What claim substantiation (if any) is required for "AI that understands Hinglish" type statements?
 
 ---
 
-## What RVR Chat Has Already Tried
+## What RVR Has Already Done
 
-### Instagram Setup (Completed 2026-04-11)
-- Converted to Instagram Business account
-- Bio with all 7 languages posted
-- Shopping/link in bio enabled (rvr.chat)
-- $70 budget allocated for Instagram Reels ads
+### Instagram (Setup Complete)
+- Converted to Instagram Business account ✅
+- Bio with all 7 languages posted ✅
+- Shopping/link in bio enabled (rvr.chat) ✅
+- $70/month allocated for Instagram Reels ads
 
-### Reddit Ad Copy (Already Drafted)
+### Reddit Organic (Running)
+- Brand account: u/_rvrdev_
+- Posted on r/CharacterAi_NSFW — multilingual support post, 2.2k views ✅
+- Reddit paid ads: $30/month allocated
+
+### Google Ads (Not Yet Active)
+- Pixel not installed — needed before Google Ads can track conversions
+
+### Reddit Ad Copy (Drafted)
 - Headline: "Finally, an AI that speaks Hinglish. No filters."
 - Body: "Chat with Indian AI companions that understand your language, culture, and slang. Free to start."
 - CTA: "Try rvr.chat →"
-
-### Reddit Organic Strategy (Underway)
-- Brand account: u/_rvrdev_ (has posted on r/CharacterAi_NSFW — multilingual support post, 2.2k views)
-- Targeting r/CharacterAIrunaways, r/IndianGaming, r/LocalLLaMA
-- Character card showcase format already proven in Reddit context
 
 ---
 
 ## Platform URL and Tracking
 
 - **Primary URL:** https://rvr.chat
-- **Meta Pixel:** Needs to be installed on rvr.chat for retargeting
-- **UTM Parameters:** Need to be established for proper attribution
-
----
-
-## Important Constraints
-
-1. **SFW Only in Public Marketing:** No NSFW references in any Instagram ad creative. The uncensored nature is implied by "no filters" and "private" — never stated explicitly as NSFW.
-
-2. **Language Authenticity Is Key:** The entire value proposition hinges on actually understanding code-mixed Indic languages. Any creative that shows a conversation MUST show authentic Hinglish/Tanglish, not sanitized Hindi.
-
-3. **Target Audience Technical Level:** Users are sophisticated enough to use AI products but NOT so technical that they'd self-host or use API keys. Messaging should not be overly technical.
-
-4. **Regional Focus:** India is the primary market. Any research findings should be India-specific unless explicitly noting where global learnings apply.
-
-5. **Budget Is Limited:** $70 for 2 weeks on Instagram. Findings should be practical for a lean budget but also include scaling recommendations.
+- **Meta Pixel:** Needs to be installed on rvr.chat for retargeting and conversion tracking
+- **UTM Parameters:** Need to be established for proper attribution across channels
 
 ---
 
 ## Deliverable Format
 
-Please produce a comprehensive multi-channel research report including:
+Please produce a comprehensive research report optimized for India-only, $100/month budget, with lowest CPV as the primary metric:
 
-1. **Executive Summary** — Key findings and top 3 channel recommendations for initial budget allocation
-2. **Channel-by-Channel Analysis** — CPM benchmarks, policy overview, and performance expectations for each channel (Instagram, Reddit, YouTube, Snapchat, Google Ads, emerging platforms)
-3. **Competitive Landscape** — Who's advertising where, what's working, what's not
-4. **Audience Targeting Playbook** — Specific targeting parameters per channel
-5. **Creative Strategy Per Channel** — Best-performing formats, hooks, CTAs, and 5-7 specific ad concepts per primary channel
-6. **Influencer Marketing Assessment** — Creator landscape, rates, and recommendations for India
-7. **Budget and Scaling Plan** — Benchmarks, CPM/CPS expectations, channel budget allocation, scaling triggers
-8. **Campaign Structure Recommendations** — How to sequence ads, retargeting flows, attribution model
-9. **Emerging Platforms** — ShareChat/Moj/Koo/Telegram viability and opportunity assessment
-10. **Regulatory and Cultural Guidance** — India-specific advertising regulations and sensitivities
-11. **Top 3 Priorities** — If budget is limited to $100, where should it go first?
+1. **Executive Summary** — Ranked channel recommendations by CPV (lowest to highest cost-per-visitor)
+2. **CPV Benchmark Table** — Estimated CPV for each channel with supporting data
+3. **Channel Deep-Dives** — Minimum budget needed, policy constraints, and best practices for each viable channel
+4. **Keyword Research (Google)** — Monthly search volumes, CPCs, and policy compliance for India
+5. **Budget Allocation Recommendation** — How to split $100/month across channels for fastest signal
+6. **Scaling Model** — Channel entry points at $40, $100, $200, $400, $1,000/month ad budgets
+7. **Creative Best Practices** — Hooks, CTAs, and formats that produce lowest CPV for this category
+8. **Organic / Zero-Cost Priorities** — Highest-impact actions requiring no ad spend
+9. **Regulatory and Cultural Guidance** — India-specific requirements and sensitivities
+10. **Top 3 Immediate Actions** — With $100/month and India-only focus, what should be done first?
 
 ---
 
-*This brief is intended to give Gemini Deep Research all context needed to conduct comprehensive research on Instagram advertising for RVR Chat. Please ask if any additional information is needed.*
+*This brief is intended to give Gemini Deep Research all context needed. The single most important output: which channel(s) deliver the most Indian visitors to rvr.chat per dollar spent at the $100/month budget level.*
