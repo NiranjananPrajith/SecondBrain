@@ -177,6 +177,8 @@ See `varsha-creation-plan.md` for full Varsha flow.
 
 7 cards total — one per language. The homepage routes to these cards directly. None of the 7 can be missing at launch.
 
+**Storage: Static JSON in codebase, not in database.** Unlike user-created characters, Varsha's cards live as static JSON files in `data/system_assistant/varsha/` and are loaded directly by the website — no database lookup needed.
+
 Fallback: if cards are not ready, the widget can route to a placeholder with a "coming soon" message. But the widget should not go live with missing card URLs.
 
 ### Ad UTMs
@@ -206,7 +208,7 @@ All content must be SFW. The homepage is the public face — it must pass app st
 
 ## Dependencies
 
-- All 7 varsha-welcome cards created and live in database
+- All 7 varsha-welcome JSON files present in `data/system_assistant/varsha/`
 - Language selection UI component built and routed
 - SFW review of all homepage content
 - UTM param handling in analytics

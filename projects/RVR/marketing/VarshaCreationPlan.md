@@ -1,8 +1,8 @@
 # Varsha — Character Creation Plan
 
 **Created:** 2026-04-12
-**Updated:** 2026-04-12 (Romanized default, model handles script switching)
-**Status:** PLANNING
+**Updated:** 2026-04-13 (static JSON + image in codebase, not card creator)
+**Status:** ACTIVE
 **Type:** Character card + multilingual onboarding funnel
 
 ---
@@ -11,10 +11,36 @@
 
 Varsha is RVR's receptionist character — the first AI persona users interact with when they land on the site. She greets visitors in their chosen language, demonstrates multilingual capability immediately, and guides them to either explore the card collection or start a chat.
 
+**Unlike other characters, Varsha is a system character.** She is baked into the homepage hero and is not created via the card creator admin UI. Her card data lives as static JSON + image in the codebase, git-tracked, and referenced directly by the website.
+
 **Key design decisions:**
 1. Varsha does NOT start in Hinglish. South Indian language speakers (Tamil, Malayalam, Kannada, Telugu) often don't speak Hindi — starting with Hinglish excludes a large portion of the target audience.
 2. Varsha starts with a universal English language selection prompt. No script choice gate — one step.
 3. All non-English cards default to Romanized script. The model (Gemma 4 31B) automatically switches to native script when the user types in native script. No second UI step needed.
+
+**Storage: Static JSON + image in codebase**
+
+Unlike user-created characters (which are created via the card creator UI and stored in the database), Varsha's cards are static files in the codebase:
+
+```
+chat.redvelvetrenders.com/data/system_assistant/varsha/
+├── varsha-eng.json  (English base)
+├── varsha-hin.json  (Hinglish)
+├── varsha-tam.json  (Tanglish)
+├── varsha-kan.json  (Kanglish)
+├── varsha-mal.json  (Manglish)
+├── varsha-tel.json  (Tenglish)
+└── varsha-ben.json  (Benglish)
+```
+
+The website loads Varsha's JSON directly — no database lookup needed for the welcome flow. The image is referenced by URL in the JSON (`image_url` field), pointing to Supabase storage.
+
+**Why static:**
+- Version-controlled — changes are git-tracked and reversible
+- No risk of accidental deletion or corruption via admin UI
+- Canonical image + card data always in sync
+- Loaded at build time or on-demand without DB overhead
+- Easy to deploy: update JSON, push to git, redeploy
 
 **Role:** Welcome character + onboarding guide + language selector
 **Tone:** Warm, welcoming, slightly playful, never corporate
@@ -296,7 +322,7 @@ A small chat window in the hero section. Shows Varsha's universal English langua
 
 ## Deliverables
 
-1. **7 Varsha scenario cards** — one per language, Romanized default, ready for database upload
+1. **7 Varsha JSON files** — one per language, static in codebase (`data/system_assistant/varsha/`)
 2. **Image assets** — 4-card image deck (per ImageStackTemplate), same visual for all language versions
 3. **Language selection UI** — reusable component for language buttons
 4. **Homepage integration spec** — exact placement and routing behavior
@@ -315,9 +341,9 @@ A small chat window in the hero section. Shows Varsha's universal English langua
 
 ## Priority Order
 
-1. Create English base card (`varsha-welcome-en`) first — all other languages translate from this
+1. Create English base card (`varsha-eng.json`) first — all other languages translate from this
 2. Generate 6 language translations (Hinglish, Tanglish, Kanglish, Manglish, Tenglish, Benglish) in Romanized
-3. Upload all 7 cards to database
+3. Verify all 7 JSON files load correctly on the site
 4. Build language selection UI component
 5. Integrate into WelcomePage hero section
 6. UTM tracking and analytics
