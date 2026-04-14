@@ -27,6 +27,7 @@ Comprehensive instructions for organizing the SecondBrain vault. This guide supe
 12. [When to Create Subfolders](#12-when-to-create-subfolders)
 13. [Git Workflow](#13-git-workflow)
 14. [Renamed Files Log](#14-renamed-files-log)
+15. [Archiving](#15-archiving)
 
 ---
 
@@ -470,6 +471,62 @@ This log tracks files that were renamed to follow the guidelines. Update this lo
 | Old Name | New Name |
 |---|---|
 | `projects/RVR/research-summaries/` | `projects/RVR/research/` (with `queries/` and `reports/` subfolders) |
+
+---
+
+## 15. Archiving
+
+When work is complete, active files transition to archive status rather than accumulating in active folders.
+
+### When to Archive
+
+- A project, phase, or workstream is marked complete
+- A file is superseded by a final version or implementation
+- Working files (prompts, plans, briefs) that are no longer referenced in active workflows
+
+### When NOT to Archive
+
+- **Active references** — if other files still `[[wikilink]]` to a file, keep it or update the link first
+- **Debugging needs** — files that may need to be referenced for debugging or reversal
+- **Meeting notes, journal entries, inbox contents** — these are never archived
+
+### Archive Folder Locations
+
+| File Type | Archive Location |
+|---|---|
+| Project files | `projects/ProjectName/archive/` |
+| Vault-level files | `memory/archive/` |
+| Root-level files (rare) | `archive/` at vault root |
+
+### Archive File Naming
+
+- **Dated items:** `YYYY-MM-DD-topic.md` — same as active files (date is when the work was done, not when archived)
+- **Merged archives:** `YYYY-MM-DD-topic-archive.md` for combined documents from the same project/phase
+
+### Archiving Checklist
+
+1. Confirm the work is complete and no active references remain
+2. Merge if multiple files cover the same topic
+3. Add `archived:` date and `status: archived` tag to frontmatter
+4. Move to the appropriate `archive/` subfolder
+5. Remove from any active task lists or index files
+6. Git commit with message referencing what was archived
+
+### Archive Frontmatter Template
+
+```yaml
+---
+title: Title of Work
+created: YYYY-MM-DD
+archived: YYYY-MM-DD
+tags: [archived, project-name]
+status: archived
+---
+```
+
+### Finding Archived Files
+
+Archived files are still searchable and accessible — they just live in `archive/` subfolders. Use `[[archive/path/to/file]]` to link to them if needed for reference.
 
 ---
 
