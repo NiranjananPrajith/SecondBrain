@@ -1,8 +1,8 @@
 # Varsha — Character Creation Plan
 
 **Created:** 2026-04-12
-**Updated:** 2026-04-13 (static JSON + image in codebase, not card creator)
-**Status:** ACTIVE
+**Updated:** 2026-04-13 (all 7 language cards created, language selection UI built, integrated into homepage hero)
+**Status:** COMPLETE
 **Type:** Character card + multilingual onboarding funnel
 
 ---
