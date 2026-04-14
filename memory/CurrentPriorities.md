@@ -28,6 +28,13 @@ tags: [status, active]
   - Phase 3: Discord recruitment after 2 weeks observing
   - Phase 4: Voice demo + content expansion (week 3-4)
   - Phase 7: Instagram setup + first SFW posts (Month 2)
+- **NEW — Reddit Ad Launch Plan:** See `projects/RVR/marketing/RedditAdLaunchPlan.md` (created 2026-04-14)
+  - Status: READY TO EXECUTE — plan documented, blocked on creative asset generation
+  - Primary creative: Remya card + Hinglish chat screenshot (16:9)
+  - Secondary: Tanglish lore card (9:16) for Day 4+ A/B test
+  - 3 headline variants + 2 body copy variants for A/B testing
+  - Full dashboard config, UTM tracking, and optimization schedule documented
+  - Dependencies: image assets not generated, WelcomePage not live, UTM tracking unverified
 - **SFW Policy:** Public content must be SFW-approved. Uncensored AI stays in private chats.
 - **Status:** READY TO START
 
