@@ -146,7 +146,7 @@ This file is the top-level blueprint. As you learn more about the vault, about t
 
 Before writing any Patreon post for RVR, read `projects/RVR/patreon/patreon-post-instructions.md` first. It contains the full brand voice guide, tier structure, post formula, and Dale Carnegie principles to follow.
 
-**Keep posts under 700 words.** Patrons skim. A tight, punchy post with 3-5 bullet points outperforms a long essay every time.
+**Keep posts under 350 words.**
 
 ---
 
