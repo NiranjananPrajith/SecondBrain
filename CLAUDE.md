@@ -142,4 +142,10 @@ This file is the top-level blueprint. As you learn more about the vault, about t
 
 ---
 
+## Patreon Posts
+
+Before writing any Patreon post for RVR, read `projects/RVR/patreon/patreon-post-instructions.md` first. It contains the full brand voice guide, tier structure, post formula, and Dale Carnegie principles to follow.
+
+---
+
 _This vault is a living thing. Keep it fed._
