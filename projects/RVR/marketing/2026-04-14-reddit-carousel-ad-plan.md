@@ -160,6 +160,68 @@ Character as focal point, portrait style.
 
 ---
 
+## Targeting Keywords
+
+Reddit allows up to 1000 targeting keywords. Use this copy-pastable list when configuring the ad set in Reddit Ads Manager:
+
+```
+Character AI alternative
+uncensored AI chat
+AI companion
+AI boyfriend
+AI girlfriend
+AI roleplay
+no filter AI
+unfiltered AI
+AI chat no censorship
+Hinglish AI
+Tanglish
+Kanglish
+Manglish
+Benglish
+Tenglish
+Indic AI
+Indian AI
+AI speaks Hindi
+AI speaks Tamil
+AI speaks Bengali
+AI speaks Telugu
+AI speaks Malayalam
+AI speaks Kannada
+Hinglish chat
+Tanglish chat
+AI products
+chatbots
+anime
+roleplaying games
+Indian entertainment
+AI art
+AI girlfriend app
+AI boy app
+AI friend
+virtual companion
+NSFW AI
+CharacterAIrunaways
+CharacterAi_NSFW
+IndianGaming
+desi AI
+Indian desi chat
+masala chat
+Bollywood AI
+Tamil AI
+Telugu AI
+Malayalam AI
+Kannada AI
+Bengali AI
+Hindi AI chat
+South Indian AI
+North Indian AI
+```
+
+**Total: 45 keywords** — well within Reddit's 1000 keyword limit.
+
+---
+
 ## Dependencies
 
 - Reddit Ads account active (per PaidAdSprint ✅)
