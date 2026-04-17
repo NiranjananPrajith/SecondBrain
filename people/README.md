@@ -10,15 +10,15 @@ tags: [team, people]
 
 | Codename | Role | Expertise |
 |----------|------|-----------|
-| [[Rowen]] | Tech Lead | Development, systems architecture |
-| [[Emerson]] | Business Development | Business ideas, sales, networking |
-| [[Cityboy]] | Project Manager | Enterprise tech PM, government projects, commerce |
-| [[Wolf]] | Business Development | Business ideas, sales, networking |
-| [[Baadshah]] | Infrastructure | Datacenter, servers, security, software |
+| [[rowen]] | Tech Lead | Development, systems architecture |
+| [[emerson]] | Business Development | Business ideas, sales, networking |
+| [[cityboy]] | Project Manager | Enterprise tech PM, government projects, commerce |
+| [[wolf]] | Business Development | Business ideas, sales, networking |
+| [[baadshah]] | Infrastructure | Datacenter, servers, security, software |
 
-## Availability for CuratorHub
+## Availability for curator-hub
 
-All team members are aware of [[projects/CuratorHub]] and may be available for suitable tasks:
+All team members are aware of [[projects/curator-hub]] and may be available for suitable tasks:
 
 - **Cityboy** — Enterprise project management, client communication
 - **Baadshah** — Infrastructure, security, server hardware

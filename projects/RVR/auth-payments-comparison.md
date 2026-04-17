@@ -234,6 +234,6 @@ Setup 1 (Patreon Only):          Setup 2 (Supabase + Stripe):
 
 ## Related
 
-- [[projects/RedVelvetRenders]] — RVR project overview
+- [[projects/red-velvet-renders]] — RVR project overview
 - [[projects/RVR/patreon/patreon-post-instructions]] — Brand voice for Patreon posts
 - [RVR Chat LLMs.md](../../VS_Code/redvelvetrenders/chat.redvelvetrenders.com/LLMs.md) — Technical architecture doc

@@ -10,7 +10,7 @@ tags: [interests, learning]
 
 | Topic | Status | Last Updated |
 |-------|--------|--------------|
-| [[Evo2]] | Active | 2026-03-19 |
+| [[evo2]] | Active | 2026-03-19 |
 | | | |
 
 ---

@@ -55,9 +55,9 @@ The platform is built around media conversion edges:
 
 | Platform | Domain | Purpose |
 |---------|--------|---------|
-| [[Studio]] | curatorhub.studio | Content creation (text, image, audio, video, 3D) |
-| [[Dev]] | curatorhub.dev | AI-powered application development |
-| [[Network]] | curatorhub.net | Social sharing and marketplace |
+| [[studio]] | curatorhub.studio | Content creation (text, image, audio, video, 3D) |
+| [[dev]] | curatorhub.dev | AI-powered application development |
+| [[network]] | curatorhub.net | Social sharing and marketplace |
 
 ---
 
@@ -121,8 +121,8 @@ Studio validates the platform concept. Dev extends it to applications. Network e
 
 | Project | Relationship |
 |---------|-------------|
-| [[RedVelvetRenders]] | **First paying customer / beta tester** — promotes CuratorHub but stays separate. RVR dog-foods Studio's workflow for all RVR content production. |
-| [[AgroTechCompany]] | Future project (after RVR/CuratorHub succeed) |
+| [[red-velvet-renders]] | **First paying customer / beta tester** — promotes CuratorHub but stays separate. RVR dog-foods Studio's workflow for all RVR content production. |
+| [[agro-tech-company]] | Future project (after RVR/CuratorHub succeed) |
 
 **RVR is not part of CuratorHub.** It is a separate product that uses CuratorHub Studio as its production tool. This is intentional — RVR validates the platform with real production needs without being structurally coupled.
 
@@ -138,6 +138,6 @@ Studio validates the platform concept. Dev extends it to applications. Network e
 
 ## Navigation
 
-- [[Studio]] — Content creation platform
-- [[Dev]] — Development platform
-- [[Network]] — Social marketplace
+- [[studio]] — Content creation platform
+- [[dev]] — Development platform
+- [[network]] — Social marketplace

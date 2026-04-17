@@ -67,9 +67,9 @@ Tech company for indoor farming (climate change thesis).
 ## Navigating This Vault
 
 Start here if you're new:
-1. Read `memory/CurrentPriorities` — know what's active right now
-2. Read `memory/ProjectsOverview` — understand the three projects
-3. Read `memory/UserRowen` — recall preferences and context
+1. Read `memory/current-priorities` — know what's active right now
+2. Read `memory/projects-overview` — understand the three projects
+3. Read `memory/user-rowen` — recall preferences and context
 
 For conventions and structure rules, see [[VAULT_GUIDELINES]].
 

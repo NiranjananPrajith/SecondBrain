@@ -72,7 +72,7 @@ Studio validates the concept. Dev extends it. Network monetizes it.
 - Text + Image → Audio (scene narration) ✅
 
 **Why these first:**
-These are exactly the edges Dr. Rowen needs to produce all [[RedVelvetRenders]] content — character images, TTS voices, scene narration. The MVP isn't hypothetical. It's RVR's production pipeline, built as a platform.
+These are exactly the edges Dr. Rowen needs to produce all [[red-velvet-renders]] content — character images, TTS voices, scene narration. The MVP isn't hypothetical. It's RVR's production pipeline, built as a platform.
 
 **Tech:**
 - Images: RunPod Stable Diffusion + Qwen
@@ -124,7 +124,7 @@ Dashboard → Blueprint → Workshop → Assembly
 
 ## RVR's Role — First Paying Customer
 
-[[RedVelvetRenders]] is **not** part of CuratorHub. It stays completely separate.
+[[red-velvet-renders]] is **not** part of CuratorHub. It stays completely separate.
 
 But it is the **first paying customer** and beta tester.
 
@@ -201,12 +201,12 @@ Studio is concrete. Dev and Network are Phase 2 and 3. But:
 
 ## Resources
 
-- [[projects/CuratorHub]] — Main project page
-- [[Studio]] — Studio details
-- [[Dev]] — Dev platform details
-- [[Network]] — Network marketplace details
-- [[RedVelvetRenders]] — First customer and proof of concept
-- [[AgroTechCompany]] — Future project (unrelated)
+- [[projects/curator-hub]] — Main project page
+- [[studio]] — Studio details
+- [[dev]] — Dev platform details
+- [[network]] — Network marketplace details
+- [[red-velvet-renders]] — First customer and proof of concept
+- [[agro-tech-company]] — Future project (unrelated)
 
 ---
 

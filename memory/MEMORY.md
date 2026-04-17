@@ -7,10 +7,10 @@ tags: [memory]
 
 This folder is the persistent brain of the vault. Everything needed to resume across sessions lives here.
 
-- [[memory/UserRowen]] — Dr. Rowen's profile, work style, preferences
-- [[memory/ProjectsOverview]] — RVR, CuratorHub, AgroTechCompany summary
-- [[memory/CurrentPriorities]] — Active tasks and what's next
-- [[memory/SystemArchitecture]] — Three-system architecture and tech stack notes
+- [[memory/user-rowen]] — Dr. Rowen's profile, work style, preferences
+- [[memory/projects-overview]] — RVR, CuratorHub, AgroTechCompany summary
+- [[memory/current-priorities]] — Active tasks and what's next
+- [[memory/system-architecture]] — Three-system architecture and tech stack notes
 
 ## External References
 
@@ -20,8 +20,8 @@ This folder is the persistent brain of the vault. Everything needed to resume ac
 
 At the start of every session:
 1. Read this index
-2. Read `CurrentPriorities` — know what's active
-3. Read `UserRowen` — recall preferences and context
-4. Update `CurrentPriorities` if anything changed during the session
+2. Read `current-priorities` — know what's active
+3. Read `user-rowen` — recall preferences and context
+4. Update `current-priorities` if anything changed during the session
 
 **Everything lives here.** No external memory files. The vault is portable — move the whole folder anywhere and it contains everything needed.

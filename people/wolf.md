@@ -12,7 +12,7 @@ tags: [team, core]
 **Real name:** (To be added if needed)
 
 **Projects:**
-- [[AgroTechCompany]]
+- [[agro-tech-company]]
 
 **Expertise:**
 - Business ideas
@@ -20,6 +20,6 @@ tags: [team, core]
 - Networking
 
 **Notes:**
-- Expertise similar to [[Emerson]] — they work well together on business development
+- Expertise similar to [[emerson]] — they work well together on business development
 - Part of the original team
-- Available for [[CuratorHub]] business development tasks if suitable opportunities arise
+- Available for [[curator-hub]] business development tasks if suitable opportunities arise

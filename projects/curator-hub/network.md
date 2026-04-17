@@ -93,6 +93,6 @@ Network connects to Studio and Dev:
 
 ## Backlinks
 
-- [[CuratorHub]] — Parent ecosystem
-- [[Studio]] — Content creation platform
-- [[Dev]] — Development platform
+- [[curator-hub]] — Parent ecosystem
+- [[studio]] — Content creation platform
+- [[dev]] — Development platform

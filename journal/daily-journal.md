@@ -30,7 +30,7 @@ tags: [journal, daily]
 
 ## Morning Brief
 
-*How the day starts. I pull this from [[memory/CurrentPriorities]] and active project plans.
+*How the day starts. I pull this from [[memory/current-priorities]] and active project plans.
 Only include things that are actually relevant today — no fluff.*
 
 ### [Project Name]
@@ -50,7 +50,7 @@ Only include things that are actually relevant today — no fluff.*
 - [2026-04-11] Made this progress
 - [2026-04-11] Completed this task ✅
 
-**→ Parent documents updated:** [[PaidAdSprint.md]] and [[memory/CurrentPriorities]]
+**→ Parent documents updated:** [[projects/RVR/marketing/paid-ad-sprint]] and [[memory/current-priorities]]
 
 ---
 

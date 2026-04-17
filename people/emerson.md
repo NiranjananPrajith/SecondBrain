@@ -12,7 +12,7 @@ tags: [team, core]
 **Real name:** (To be added if needed)
 
 **Projects:**
-- [[AgroTechCompany]]
+- [[agro-tech-company]]
 
 **Expertise:**
 - Business ideas
@@ -23,4 +23,4 @@ tags: [team, core]
 - Proposed the indoor saffron cultivation idea
 - Identified high-value crop opportunity
 - Part of the original team at university innovation event
-- Works well with [[Wolf]] on business development tasks
+- Works well with [[wolf]] on business development tasks

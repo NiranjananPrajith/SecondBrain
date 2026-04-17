@@ -27,8 +27,8 @@ tags: [person]
 - Naming/folder rules: see [[VAULT_GUIDELINES]]
 
 **Projects:**
-- [[projects/RedVelvetRenders]] — PRIMARY REVENUE, active
-- [[projects/CuratorHub]] — future platform
-- [[projects/AgroTechCompany]] — distant future
+- [[projects/red-velvet-renders]] — PRIMARY REVENUE, active
+- [[projects/curator-hub]] — future platform
+- [[projects/agro-tech-company]] — distant future
 
 **Location:** UnknownS

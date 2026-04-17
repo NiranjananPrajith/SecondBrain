@@ -75,22 +75,22 @@ Examples:
 For ongoing notes — projects, people, topics with no fixed date:
 
 ```
-CamelCase.md
+hyphenated.md
 ```
 
 Examples:
-- `RedVelvetRenders.md`
-- `UserRowen.md`
-- `CurrentPriorities.md`
-- `CommunityAndFandomPlan.md`
+- `red-velvet-renders.md`
+- `user-rowen.md`
+- `current-priorities.md`
+- `community-and-fandom-plan.md`
 
 ### Rules
 
 - **Dated files: lowercase hyphenated** — no spaces, no special characters
-- **General files: CamelCase** — no spaces, capital on each word
+- **General files: hyphenated** — no spaces, lowercase with hyphens
 - **No special characters** — no `#`, `:`, `(`, `)`, `!`, `@` in filenames
-- **Be descriptive but brief** — `RvrMarketingPlan.md` not `Marketing.md`
-- **No dates in general notes** — `CurrentPriorities.md` not `2026-04-10-CurrentPriorities.md`
+- **Be descriptive but brief** — `rvr-marketing-plan.md` not `Marketing.md`
+- **No dates in general notes** — `current-priorities.md` not `2026-04-10-current-priorities.md`
 - **No dates in project files** — the `created:` frontmatter field tracks creation date
 
 ### Quick Reference
@@ -100,9 +100,9 @@ Examples:
 | Meeting | `YYYY-MM-DD-topic.md` | `2026-04-13-rvr-planning.md` |
 | Issue | `YYYY-MM-DD-topic.md` | `2026-04-03-n8n-crash-loop.md` |
 | Daily capture | `YYYY-MM-DD-topic.md` | `2026-04-13-voice-ai-idea.md` |
-| Project | `CamelCase.md` | `RedVelvetRenders.md` |
-| Person | `CamelCase.md` | `UserRowen.md` |
-| Plan | `CamelCase.md` | `CommunityAndFandomPlan.md` |
+| Project | `hyphenated.md` | `red-velvet-renders.md` |
+| Person | `hyphenated.md` | `user-rowen.md` |
+| Plan | `hyphenated.md` | `community-and-fandom-plan.md` |
 
 ---
 
@@ -256,8 +256,8 @@ Daily journal entries at `journal/YYYY-MM-DD.md`.
 
 Every session, read before working:
 1. `journal/daily-journal` — today's entry and format guide
-2. `memory/CurrentPriorities` — what's active and what needs to happen next
-3. `projects/ActiveTasks` — task lists for active projects
+2. `memory/current-priorities` — what's active and what needs to happen next
+3. `projects/active-tasks` — task lists for active projects
 4. `inbox/` — unprocessed items, loose threads, capture from the day
 
 ### Journal Entry Format
@@ -327,10 +327,10 @@ Project notes live in `projects/`. Each project gets a folder if it has multiple
 ### Project Folder Structure
 
 ```
-projects/ProjectName/
-  ProjectName.md          # Overview, goals, current status
-  SubAreaPlan.md          # Plans for specific areas
-  SubAreaNotes.md         # Ongoing notes for that area
+projects/project-name/
+  project-name.md          # Overview, goals, current status
+  sub-area-plan.md          # Plans for specific areas
+  sub-area-notes.md         # Ongoing notes for that area
 ```
 
 ### Project File Template
@@ -367,7 +367,7 @@ tags: [project]
 
 | File | Purpose |
 |------|---------|
-| `user.md` or `UserName.md` | User profile — role, preferences, communication style |
+| `user-name.md` | User profile — role, preferences, communication style |
 | `current-priorities.md` | What's active right now across all projects |
 | `projects-overview.md` | Summary of all active projects |
 
@@ -503,7 +503,7 @@ When work is complete, active files transition to archive status rather than acc
 - **All archived files include the archive date:** `YYYY-MM-DD-topic.md` — the date is when the work was done or when archiving occurred
 - **Dated items:** `YYYY-MM-DD-topic.md` — same as active files (date is when the work was done, not when archived)
 - **Merged archives:** `YYYY-MM-DD-topic-archive.md` for combined documents from the same project/phase
-- **General (non-dated) files when archived:** still receive a date prefix, e.g. `SomeFile.md` → `2026-04-17-some-file.md`
+- **General (non-dated) files when archived:** still receive a date prefix, e.g. `some-file.md` → `2026-04-17-some-file.md`
 
 ### Archiving Checklist
 
@@ -541,7 +541,7 @@ Archived files are still searchable and accessible — they just live in `archiv
 YYYY-MM-DD-topic.md
 
 # Ongoing (projects, people, interests)
-CamelCase.md
+hyphenated.md
 ```
 
 ### Folder Name Formula

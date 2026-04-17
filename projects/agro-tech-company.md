@@ -7,7 +7,7 @@ aliases: [AgroTech, ATC]
 
 # AgroTechCompany (Placeholder Name)
 
-*Placeholder project file. Name TBD. Related: [[RedVelvetRenders]], [[projects/CuratorHub]]*
+*Placeholder project file. Name TBD. Related: [[red-velvet-renders]], [[projects/curator-hub]]*
 
 ## Overview
 
@@ -176,18 +176,18 @@ The tech stack is **crop-agnostic**. Any plant that can be grown indoors can use
 
 | Codename | Role |
 |----------|------|
-| [[Rowen]] | Tech Lead |
-| [[Emerson]] | Agriculture / Research |
-| [[Cityboy]] | Business Development |
-| [[Wolf]] | TBD |
-| [[Baadshah]] | TBD |
+| [[rowen]] | Tech Lead |
+| [[emerson]] | Agriculture / Research |
+| [[cityboy]] | Business Development |
+| [[wolf]] | TBD |
+| [[baadshah]] | TBD |
 
 ---
 
 ## Relationship to Other Projects
 
-- [[RedVelvetRenders]] → Revenue generation for Dr. Rowen
-- [[projects/CuratorHub]] → Revenue generation + potential tech overlap (AI orchestration, RunPod)
+- [[red-velvet-renders]] → Revenue generation for Dr. Rowen
+- [[projects/curator-hub]] → Revenue generation + potential tech overlap (AI orchestration, RunPod)
 - **This project** → Future project after RVR/CuratorHub succeed
 
 ---

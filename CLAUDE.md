@@ -57,8 +57,8 @@ See [[VAULT_GUIDELINES]] for naming conventions, folder structure, and file mana
 
 Every session, start by reading:
 - [[journal/daily-journal]] — today's entry and format guide
-- [[memory/CurrentPriorities]] — what's active and what needs to happen next
-- [[projects/ActiveTasks]] — task lists for active projects
+- [[memory/current-priorities]] — what's active and what needs to happen next
+- [[projects/active-tasks]] — task lists for active projects
 - [[inbox/]] — unprocessed items, loose threads, capture from the day
 
 The vault is self-contained. Everything needed to resume from where we left off lives here, inside this folder.

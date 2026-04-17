@@ -14,7 +14,7 @@ tags: [memory, system]
 - **Personality:** Down-to-earth, values authenticity, respects boundaries
 
 ## RedVelvetRenders (RVR)
-*See [[RedVelvetRenders]] for full project details*
+*See [[red-velvet-renders]] for full project details*
 
 ### Projects
 1. **Kaliyuga Charitham** - Flagship sci-fi visual novel (comic format)
@@ -108,16 +108,16 @@ tags: [memory, system]
 ### ⏳ PENDING
 - Account merging (link Patreon to existing account)
 - Admin Console `lastConversationAt` error fix
-- [[projects/CuratorHub]] development
+- [[projects/curator-hub]] development
 - Patreon → Supabase Auth migration
 
 ### ⏳ PENDING (Future)
-- [[AgroTechCompany]] (after RVR/CuratorHub succeed)
+- [[agro-tech-company]] (after RVR/CuratorHub succeed)
 - Game logic AI
 - Story planner tool
 
 ## Personal Interests
-- [[Evo2]] - DNA Foundation Models & AI x Biology
+- [[evo2]] - DNA Foundation Models & AI x Biology
 - **Lifelong learner** - Deep interest in AI, biology, science, and emerging tech
 
 ## Three-System Architecture

@@ -14,7 +14,7 @@ tags: [team, core]
 **Current Position:** Datacenter Engineer at a major B2B company with government ties
 
 **Projects:**
-- [[AgroTechCompany]]
+- [[agro-tech-company]]
 
 **Expertise:**
 - Server hardware
@@ -30,5 +30,5 @@ tags: [team, core]
 - Cloud and on-prem deployments
 
 **Notes:**
-- Available for [[CuratorHub]] infrastructure, security, and server-related tasks
+- Available for [[curator-hub]] infrastructure, security, and server-related tasks
 - Deep experience in enterprise-grade environments

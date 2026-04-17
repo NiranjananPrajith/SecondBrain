@@ -12,9 +12,9 @@ tags: [team, core]
 **Real name:** (To be added if needed)
 
 **Projects:**
-- [[RedVelvetRenders]]
-- [[projects/CuratorHub]]
-- [[AgroTechCompany]]
+- [[red-velvet-renders]]
+- [[projects/curator-hub]]
+- [[agro-tech-company]]
 
 **Skills & Expertise:**
 - (To be documented)

@@ -7,7 +7,7 @@ aliases: [RVR]
 
 # RedVelvetRenders (RVR)
 
-*Part of the [[MEMORY]] system. See [[TASKS]] for development tracking.*
+*Part of the [[MEMORY]] system. See [[projects/active-tasks]] for development tracking.*
 
 ## Overview
 
@@ -124,7 +124,7 @@ AI-powered fantasy chat platform with comics, novels, games, and interactive sto
 
 ## Notes
 
-- Revenue goal: Make RVR profitable → work on [[projects/CuratorHub]] full-time
+- Revenue goal: Make RVR profitable → work on [[projects/curator-hub]] full-time
 - Revenue goal: Make RVR profitable → work on CuratorHub full-time
 - Solo developer
 - Updates: Weekly (not daily)

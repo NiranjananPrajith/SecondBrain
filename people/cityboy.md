@@ -14,7 +14,7 @@ tags: [team, core]
 **Current Position:** Project Manager at a major cyber-intelligence company (government-facing)
 
 **Projects:**
-- [[AgroTechCompany]]
+- [[agro-tech-company]]
 
 **Expertise:**
 - Enterprise tech project management
@@ -32,4 +32,4 @@ tags: [team, core]
 **Notes:**
 - Had multiple business ideas (fintech, e-edu)
 - Part of the original team at university innovation event
-- Available for [[CuratorHub]] enterprise-level tasks if suitable opportunities arise
+- Available for [[curator-hub]] enterprise-level tasks if suitable opportunities arise

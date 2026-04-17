@@ -191,6 +191,6 @@ Unlike generic AI studios (Midjourney, Runway, etc.):
 
 ## Backlinks
 
-- [[CuratorHub]] — Parent ecosystem
-- [[Dev]] — Development platform
-- [[Network]] — Social & marketplace
+- [[curator-hub]] — Parent ecosystem
+- [[dev]] — Development platform
+- [[network]] — Social & marketplace

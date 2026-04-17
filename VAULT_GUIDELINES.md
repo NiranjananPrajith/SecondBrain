@@ -7,7 +7,7 @@
 | Type | Format | Example |
 |------|--------|---------|
 | Dated | `YYYY-MM-DD-topic.md` | `2026-04-13-rvr-planning.md` |
-| General | `CamelCase.md` | `RedVelvetRenders.md` |
+| General | `hyphenated.md` | `red-velvet-renders.md` |
 
 ## Folder Structure
 

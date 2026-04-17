@@ -94,6 +94,6 @@ Dashboard → Blueprint → Workshop → Assembly
 
 ## Backlinks
 
-- [[CuratorHub]] — Parent ecosystem
-- [[Studio]] — Content creation platform
-- [[Network]] — Social & marketplace
+- [[curator-hub]] — Parent ecosystem
+- [[studio]] — Content creation platform
+- [[network]] — Social & marketplace
