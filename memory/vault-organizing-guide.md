@@ -500,8 +500,10 @@ When work is complete, active files transition to archive status rather than acc
 
 ### Archive File Naming
 
+- **All archived files include the archive date:** `YYYY-MM-DD-topic.md` — the date is when the work was done or when archiving occurred
 - **Dated items:** `YYYY-MM-DD-topic.md` — same as active files (date is when the work was done, not when archived)
 - **Merged archives:** `YYYY-MM-DD-topic-archive.md` for combined documents from the same project/phase
+- **General (non-dated) files when archived:** still receive a date prefix, e.g. `SomeFile.md` → `2026-04-17-some-file.md`
 
 ### Archiving Checklist
 
