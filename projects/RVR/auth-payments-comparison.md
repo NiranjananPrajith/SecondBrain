@@ -11,6 +11,29 @@ tags: [rvr, auth, payments, patreon, stripe, supabase, analysis]
 
 ---
 
+## Decision
+
+> [!success]
+> **Decision: Migrate to Patreon-only auth.** Based on answers gathered 2026-04-17.
+
+### Chosen Approach
+
+| Area | Decision |
+|------|----------|
+| **Auth** | Patreon-only login flow. Users create/sign in via Patreon OAuth, which offers Google, Apple, Facebook, or email — so multi-provider is unnecessary |
+| **Email verification** | Required (Patreon's OAuth guarantees verified email) |
+| **Payments** | Patreon pledges for recurring credit tiers. One-time purchases: research Patreon Shop API integration; if not feasible, fall back to Stripe for one-time credit purchases only |
+| **Account management** | Link to Patreon settings pages (`/settings/basics`, `/settings/account`) — no custom account management code |
+| **Existing users** | Paid users: manual migration to Patreon accounts. Free users: must link Patreon to continue using the service |
+| **Database schema** | Simplified to `patreonId` + `email` + `name` + `avatar` (from Patreon). Remove `googleId`, `discordId`, `emailAuthId` fields and related Supabase OAuth code |
+| **Stripe** | Kept as fallback for one-time credit purchases if Patreon Shop integration isn't viable |
+
+### Pending Research
+
+- **Patreon Shop API**: Can Shop one-time purchases be linked to rvr.chat via API/webhook? If not, Stripe one-time purchases remain as fallback.
+
+---
+
 ## Quick Summary
 
 | Aspect | Setup 1: Patreon Only | Setup 2: Supabase + Patreon + Stripe |
@@ -194,6 +217,18 @@ Setup 1 (Patreon Only):          Setup 2 (Supabase + Stripe):
 3. **Engineering capacity** — Can we reliably maintain two payment systems?
 4. **Dispute tolerance** — Are we ready to handle chargebacks and refund requests ourselves?
 5. **GDPR readiness** — Do we have a plan for account deletion and data export?
+
+## Answers (2026-04-17)
+
+| Question | Answer |
+|----------|--------|
+| Auth provider preference | Keep it simple. Patreon offers Google/Apple/Facebook/Email via OAuth — same provider choice as current setup, without our own auth infrastructure |
+| Email verification | Require verification — Patreon OAuth provides this automatically |
+| Payment model | Patreon for all subscriptions. Patreon Shop for one-time purchases (pending research). Stripe remains as fallback for one-time credit purchases only if Shop doesn't work |
+| Account management | Link to Patreon settings pages (`/settings/basics`, `/settings/account`) — no custom code needed |
+| Existing non-Patreon users | Paid users: manual migration. Free users: must connect Patreon to continue |
+| Database schema | Simplify to Patreon ID + email + name + avatar (from Patreon). Remove Supabase OAuth fields |
+| Patreon Shop | Not yet confirmed integrable — need further research before deciding |
 
 ---
 
