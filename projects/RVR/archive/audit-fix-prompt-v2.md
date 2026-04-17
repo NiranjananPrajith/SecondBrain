@@ -1,4 +1,10 @@
-# RVR Chat: Post-Audit TypeScript Fixes — AI Coding Agent Prompt
+---
+title: RVR Chat Post-Audit TypeScript Fixes
+created: 2026-04-17
+archived: 2026-04-17
+tags: [archived, rvr, migration]
+status: archived
+---
 
 ## Context
 

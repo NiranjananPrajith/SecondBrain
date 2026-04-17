@@ -1,4 +1,10 @@
-# RVR Chat: Patreon-Only Auth Migration Prompt
+---
+title: RVR Chat Patreon-Only Auth Migration Prompt
+created: 2026-04-17
+archived: 2026-04-17
+tags: [archived, rvr, migration]
+status: archived
+---
 
 ## Context
 

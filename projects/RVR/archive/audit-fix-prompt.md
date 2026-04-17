@@ -1,4 +1,10 @@
-# RVR Chat: Patreon-Only Migration — Post-Audit Fix Prompt
+---
+title: RVR Chat Patreon-Only Migration Post-Audit Fix Prompt
+created: 2026-04-17
+archived: 2026-04-17
+tags: [archived, rvr, migration]
+status: archived
+---
 
 ## Context
 
